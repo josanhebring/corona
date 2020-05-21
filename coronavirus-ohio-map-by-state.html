@@ -1,0 +1,1266 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Mr+Dafoe" rel="stylesheet" type="text/css">
+
+		<style type="text/css">
+			html, body {
+			    font-family: "Open Sans", Arial, sans-serif;
+			    font-size: 14px;
+			    font-weight: 400;
+			    background: #f3f3f3 url(https://www.esri.com/arcgis-blog/wp-content/uploads/2020/03/USCounties_Coronavirus_Cases20200329.png
+) no-repeat center center fixed;
+				background-size: cover;
+				height: 100%;
+			}
+
+			#title{
+				font-family: "Mr Dafoe", Times, serif;
+			    font-size: 34px;
+			    background: rgba(255, 255, 255, 0.8);
+			    margin-bottom: 34px;
+			}
+
+			.header{
+				padding-bottom: 13px;
+			    margin-bottom: 13px;
+			    border-bottom: 1px solid #eee;
+			}
+
+			a {
+			    color: #26ADE4;
+			    text-decoration: none;
+			}
+
+			#title a{
+				color: #333;
+				margin-left: 21px;
+			}
+
+			#title a:hover{
+				text-decoration: none;
+				color: #26ADE4;
+			}
+
+			.container{
+				max-width: 960px;
+				margin: 0px auto 60px;
+			    padding: 20px;
+			    background-color: #fff;
+			    border: 1px solid #ccc;
+			    border-top: 1px solid #ddd;
+			    border-left: 1px solid #ddd;
+			    box-shadow: 3px 3px 3px rgba(150,150,150,0.2);
+			}
+			.sidebar ul{
+				margin: 0;
+			    padding: 0;
+			}
+
+			.sidebar ul li{
+				list-style: none;
+			}
+
+			.footer{
+				margin-top: 21px;
+				padding-top: 13px;
+				border-top: 1px solid #eee;
+			}
+
+			.footer a{
+				margin: 0 15px;
+			}
+
+			.navi{
+				margin:13px 0 13px 0;
+				padding:13px;
+			}
+
+			.navi a{
+				margin: 5px 2px;
+				font-size: 95%;
+			}
+			
+		</style>
+
+		<title>Coronavirus Ohio Map By State</title>
+			</head>
+	<body>
+		<div id="title" class="">
+			<a href="">Coronavirus</a>
+		</div>
+		<div class="container">
+			<div class="row header">
+				<div class="col-sm-12 text-center">
+
+						<h1>Coronavirus Ohio Map By State</h1>
+
+	
+	<div class="navi text-center">
+			</div>
+
+					
+				</div>
+			</div>
+			<div class="row content">
+				<div class="col-md-12">
+					
+						
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="http://cdn.statcdn.com/Infographic/images/normal/21423.jpeg" target="_blank">
+						<img class="img-fluid" src="http://cdn.statcdn.com/Infographic/images/normal/21423.jpeg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Chart Which U S States Are Opening Up Again Statista
+						<br>
+						<span class="badge badge-secondary">www.statista.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://media14.s-nbcnews.com/i/MSNBC/Components/Video/202003/tdy_sun_fair_coronavirus_200315_1920x1080.jpg" target="_blank">
+						<img class="img-fluid" src="https://media14.s-nbcnews.com/i/MSNBC/Components/Video/202003/tdy_sun_fair_coronavirus_200315_1920x1080.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						New York City To Close Schools Bars Restaurants Around U S
+						<br>
+						<span class="badge badge-secondary">www.nbcnews.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://cdnl.tblsft.com/sites/default/files/blog/ohionew.jpg" target="_blank">
+						<img class="img-fluid" src="https://cdnl.tblsft.com/sites/default/files/blog/ohionew.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						How Governments Are Using Tableau To Keep You Up To Date On The
+						<br>
+						<span class="badge badge-secondary">www.tableau.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://ewscripps.brightspotcdn.com/dims4/default/e443670/2147483647/strip/true/crop/1378x775+0+171/resize/1280x720!/quality/90/?url=https%3A%2F%2Fewscripps.brightspotcdn.com%2F48%2F3d%2F89a37e6e457bb54700f76756d0f5%2Fscreen-shot-2020-05-18-at-2.50.20%20PM.png" target="_blank">
+						<img class="img-fluid" src="https://ewscripps.brightspotcdn.com/dims4/default/e443670/2147483647/strip/true/crop/1378x775+0+171/resize/1280x720!/quality/90/?url=https%3A%2F%2Fewscripps.brightspotcdn.com%2F48%2F3d%2F89a37e6e457bb54700f76756d0f5%2Fscreen-shot-2020-05-18-at-2.50.20%20PM.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						1y5de7aqjri1xm
+						<br>
+						<span class="badge badge-secondary"></span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://ewscripps.brightspotcdn.com/dims4/default/895bdac/2147483647/strip/true/crop/1896x995+0+35/resize/1200x630!/quality/90/?url=https%3A%2F%2Fewscripps.brightspotcdn.com%2Fc9%2F52%2F0214dd084c659a5ecfb4dccd4019%2Fcoronavirus-in-ohio.jpg" target="_blank">
+						<img class="img-fluid" src="https://ewscripps.brightspotcdn.com/dims4/default/895bdac/2147483647/strip/true/crop/1896x995+0+35/resize/1200x630!/quality/90/?url=https%3A%2F%2Fewscripps.brightspotcdn.com%2Fc9%2F52%2F0214dd084c659a5ecfb4dccd4019%2Fcoronavirus-in-ohio.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Number Of New Daily Covid 19 Cases In Ohio Slows For The Third Day
+						<br>
+						<span class="badge badge-secondary">www.news5cleveland.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://s.abcnews.com/images/International/NonEssentialBusinessClosures_040320_v01_KS_hpEmbed_25x14_992.jpg" target="_blank">
+						<img class="img-fluid" src="https://s.abcnews.com/images/International/NonEssentialBusinessClosures_040320_v01_KS_hpEmbed_25x14_992.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Here Are The States That Have Shut Down Nonessential Businesses
+						<br>
+						<span class="badge badge-secondary">abcnews.go.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+					<div class="row">
+				<div class="col-md-12">
+					<div class="text-left">
+						<h3></h3>
+						<img src="https://www.tristatehomepage.com/wp-content/uploads/sites/92/2020/03/tested-map.jpg" width="34%" align="left" style="margin-right: 8px;margin-bottom: 8px;">
+
+											</div>
+				</div>
+			</div>
+			
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://ewscripps.brightspotcdn.com/dims4/default/f398c91/2147483647/strip/true/crop/716x403+83+0/resize/1280x720!/quality/90/?url=https%3A%2F%2Fewscripps.brightspotcdn.com%2F46%2F48%2F7f405baa4edb996a4d2dd210bf5c%2Fproxy-5.png" target="_blank">
+						<img class="img-fluid" src="https://ewscripps.brightspotcdn.com/dims4/default/f398c91/2147483647/strip/true/crop/716x403+83+0/resize/1280x720!/quality/90/?url=https%3A%2F%2Fewscripps.brightspotcdn.com%2F46%2F48%2F7f405baa4edb996a4d2dd210bf5c%2Fproxy-5.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Latest University Of Washington Model Still Shows Ohio Has Enough
+						<br>
+						<span class="badge badge-secondary">www.news5cleveland.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://specials-images.forbesimg.com/imageserve/5e6fa95937d0440006bc9145/960x0.jpg?fit=scale" target="_blank">
+						<img class="img-fluid" src="https://specials-images.forbesimg.com/imageserve/5e6fa95937d0440006bc9145/960x0.jpg?fit=scale" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Here Are The States With The Most And Least Coronavirus Cases
+						<br>
+						<span class="badge badge-secondary">www.forbes.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://www.dispatch.com/storyimage/OH/20200319/NEWS/200318134/AR/0/AR-200318134.jpg" target="_blank">
+						<img class="img-fluid" src="https://www.dispatch.com/storyimage/OH/20200319/NEWS/200318134/AR/0/AR-200318134.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						The Latest Map Ohio Coronavirus By County News The Columbus
+						<br>
+						<span class="badge badge-secondary">www.dispatch.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://d3i6fh83elv35t.cloudfront.net/static/2020/01/Screen-Shot-2020-01-22-at-6.39.27-PM-1200x807.png" target="_blank">
+						<img class="img-fluid" src="https://d3i6fh83elv35t.cloudfront.net/static/2020/01/Screen-Shot-2020-01-22-at-6.39.27-PM-1200x807.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Track The Spread Of Novel Coronavirus With This Map Pbs Newshour
+						<br>
+						<span class="badge badge-secondary">www.pbs.org</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="http://media.graytvinc.com/images/NEW+REOPEN+MAP.jpg" target="_blank">
+						<img class="img-fluid" src="http://media.graytvinc.com/images/NEW+REOPEN+MAP.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Model Projects When States Could Safely Reopen Businesses
+						<br>
+						<span class="badge badge-secondary">www.wtap.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://local12.com/resources/media/3925fe2e-b35e-411b-84d5-f4de8d46839e-large16x9_MIDWESTECONOMICPACT.png?1587068300230" target="_blank">
+						<img class="img-fluid" src="https://local12.com/resources/media/3925fe2e-b35e-411b-84d5-f4de8d46839e-large16x9_MIDWESTECONOMICPACT.png?1587068300230" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Ohio Among Seven Midwest States Coordinating Efforts To Reopen
+						<br>
+						<span class="badge badge-secondary">local12.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://www.wpafb.af.mil/portals/60/images/corona/COVID-Important%20Phone%20Numbers.jpg?ver=2020-03-25-131103-480" target="_blank">
+						<img class="img-fluid" src="https://www.wpafb.af.mil/portals/60/images/corona/COVID-Important%20Phone%20Numbers.jpg?ver=2020-03-25-131103-480" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Wright Patterson Afb Coronavirus
+						<br>
+						<span class="badge badge-secondary">www.wpafb.af.mil</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://interactive.guim.co.uk/uploader/embed/2020/05/archive-zip/giv-3902TthGRroJdXwm/cases-capita.svg" target="_blank">
+						<img class="img-fluid" src="https://interactive.guim.co.uk/uploader/embed/2020/05/archive-zip/giv-3902TthGRroJdXwm/cases-capita.svg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Qibxkbvxbvmqmm
+						<br>
+						<span class="badge badge-secondary"></span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://www.wksu.org/sites/wksu/files/styles/x_large/public/202003/travel_advisory_map.jpg" target="_blank">
+						<img class="img-fluid" src="https://www.wksu.org/sites/wksu/files/styles/x_large/public/202003/travel_advisory_map.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Morning Headlines Coronavirus Recalls Study Abroad Students Back
+						<br>
+						<span class="badge badge-secondary">www.wksu.org</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://static01.nyt.com/images/2020/03/21/us/coronavirus-us-cases-spread-promo-1584800081836/coronavirus-us-cases-spread-promo-1584800081836-superJumbo-v2.jpg" target="_blank">
+						<img class="img-fluid" src="https://static01.nyt.com/images/2020/03/21/us/coronavirus-us-cases-spread-promo-1584800081836/coronavirus-us-cases-spread-promo-1584800081836-superJumbo-v2.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Watch How The Coronavirus Spread Across The United States The
+						<br>
+						<span class="badge badge-secondary">www.nytimes.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://interactive.guim.co.uk/uploader/embed/2020/05/archive-zip/giv-3902TthGRroJdXwm/cases.svg" target="_blank">
+						<img class="img-fluid" src="https://interactive.guim.co.uk/uploader/embed/2020/05/archive-zip/giv-3902TthGRroJdXwm/cases.svg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Qibxkbvxbvmqmm
+						<br>
+						<span class="badge badge-secondary"></span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/images/coronavirus-indy-1583511980.jpg?crop=1.00xw:1.00xh;0,0&amp;resize=640:*" target="_blank">
+						<img class="img-fluid" src="https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/images/coronavirus-indy-1583511980.jpg?crop=1.00xw:1.00xh;0,0&amp;resize=640:*" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus In Ohio Kentucky Indiana Map Shows Number Of Cases
+						<br>
+						<span class="badge badge-secondary">www.wlwt.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="http://static-30.sinclairstoryline.com/resources/media/35e9ba90-4d0d-41b2-a108-646d0d3ccc1f-large1x1_200407CoronavirusinOhiomap.png?1586283613725" target="_blank">
+						<img class="img-fluid" src="http://static-30.sinclairstoryline.com/resources/media/35e9ba90-4d0d-41b2-a108-646d0d3ccc1f-large1x1_200407CoronavirusinOhiomap.png?1586283613725" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Ohio Leaders Address Latest Coronavirus Numbers Cases Rise To
+						<br>
+						<span class="badge badge-secondary">abc6onyourside.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://media.myteamscoop.com/image/151735/2/-1/52/0/111" target="_blank">
+						<img class="img-fluid" src="https://media.myteamscoop.com/image/151735/2/-1/52/0/111" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Ohio Covid 19 Deaths Increase Sandusky Register State Health
+						<br>
+						<span class="badge badge-secondary">sanduskyregister.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://mjbizdaily.com/wp-content/uploads/2020/04/cannabis-states-with-stay-at-home-orders4.2-01.png" target="_blank">
+						<img class="img-fluid" src="https://mjbizdaily.com/wp-content/uploads/2020/04/cannabis-states-with-stay-at-home-orders4.2-01.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						States That Have Allowed Marijuana Businesses To Remain Open
+						<br>
+						<span class="badge badge-secondary">mjbizdaily.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://www.bridgemi.com/sites/default/files/hero_images/screen_shot_2020-03-31_at_5.38.17_pm.png" target="_blank">
+						<img class="img-fluid" src="https://www.bridgemi.com/sites/default/files/hero_images/screen_shot_2020-03-31_at_5.38.17_pm.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Why Did Coronavirus Spread So Fast In Michigan Compared To
+						<br>
+						<span class="badge badge-secondary">www.bridgemi.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://www.record-courier.com/storyimage/OH/20200408/NEWS/200408788/AR/0/AR-200408788.jpg" target="_blank">
+						<img class="img-fluid" src="https://www.record-courier.com/storyimage/OH/20200408/NEWS/200408788/AR/0/AR-200408788.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						State Monitoring Strong Cluster Of Coronavirus In Portage County
+						<br>
+						<span class="badge badge-secondary">www.record-courier.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="http://static-20.sinclairstoryline.com/resources/media/ca43d55f-1d28-4410-922c-9a6d6dca7477-large3x4_CoronavirusINFOMAPMarch24.png?1585073547728" target="_blank">
+						<img class="img-fluid" src="http://static-20.sinclairstoryline.com/resources/media/ca43d55f-1d28-4410-922c-9a6d6dca7477-large3x4_CoronavirusINFOMAPMarch24.png?1585073547728" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Cases Rise To 564 With 8 Deaths In Ohio Wsyx
+						<br>
+						<span class="badge badge-secondary">abc6onyourside.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://i2.wp.com/www.lovelandmagazine.com/wp-content/uploads/2020/04/covid-locator-map.png?fit=800%2C532&amp;ssl=1" target="_blank">
+						<img class="img-fluid" src="https://i2.wp.com/www.lovelandmagazine.com/wp-content/uploads/2020/04/covid-locator-map.png?fit=800%2C532&amp;ssl=1" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						The State Of Ohio Covid 19 Dashboard Loveland Magazine
+						<br>
+						<span class="badge badge-secondary">www.lovelandmagazine.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://image.cnbcfm.com/api/v1/image/106462174-158643897507320200409stateleveljoblessclaimsdatamap.png?v=1586438993&amp;w=1600&amp;h=900" target="_blank">
+						<img class="img-fluid" src="https://image.cnbcfm.com/api/v1/image/106462174-158643897507320200409stateleveljoblessclaimsdatamap.png?v=1586438993&amp;w=1600&amp;h=900" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Map Which States Are Seeing The Most Job Losses Due
+						<br>
+						<span class="badge badge-secondary">www.cnbc.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://s3.amazonaws.com/ogden_images/www.theintelligencer.net/images/2020/03/25221309/03-25-20-COVID-Map-Graphic-Update-01.png" target="_blank">
+						<img class="img-fluid" src="https://s3.amazonaws.com/ogden_images/www.theintelligencer.net/images/2020/03/25221309/03-25-20-COVID-Map-Graphic-Update-01.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Cases Continue To Multiply In West Virginia As Data
+						<br>
+						<span class="badge badge-secondary">www.theintelligencer.net</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://arc-anglerfish-arc2-prod-advancelocal.s3.amazonaws.com/public/W3F6VRCIFBDXLOH3JN4Y2NMK7Y.png" target="_blank">
+						<img class="img-fluid" src="https://arc-anglerfish-arc2-prod-advancelocal.s3.amazonaws.com/public/W3F6VRCIFBDXLOH3JN4Y2NMK7Y.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Printing A Geographic Map Of Coronavirus Cases Is Wrong And
+						<br>
+						<span class="badge badge-secondary">www.cleveland.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://www.wksu.org/sites/wksu/files/styles/medium/public/202004/summit_county_map.png" target="_blank">
+						<img class="img-fluid" src="https://www.wksu.org/sites/wksu/files/styles/medium/public/202004/summit_county_map.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Summit County Releases Coronavirus Data By Zip Code Wksu
+						<br>
+						<span class="badge badge-secondary">www.wksu.org</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="http://www.policysoapbox.com/wp-content/uploads/2020/03/Dentons-50-map-coronavirus-02-3.5.20-1024x791.jpg" target="_blank">
+						<img class="img-fluid" src="http://www.policysoapbox.com/wp-content/uploads/2020/03/Dentons-50-map-coronavirus-02-3.5.20-1024x791.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						You Re Invited Coronavirus Disease Covid 19 In The Us Policy
+						<br>
+						<span class="badge badge-secondary">www.policysoapbox.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://bloximages.newyork1.vip.townnews.com/journal-news.net/content/tncms/assets/v3/editorial/e/c1/ec1065e9-ac64-5736-9355-789998fcff72/5e7542f9781c7.image.png" target="_blank">
+						<img class="img-fluid" src="https://bloximages.newyork1.vip.townnews.com/journal-news.net/content/tncms/assets/v3/editorial/e/c1/ec1065e9-ac64-5736-9355-789998fcff72/5e7542f9781c7.image.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Justice State Officials Confirm Eight Coronavirus Cases Two In
+						<br>
+						<span class="badge badge-secondary">www.journal-news.net</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="http://static-16.sinclairstoryline.com/resources/media/0d38653e-9555-4cff-a5ea-27c22d53cb34-large3x4_CoronavirusCasesCountyMapMar20.jpg?1584731314433" target="_blank">
+						<img class="img-fluid" src="http://static-16.sinclairstoryline.com/resources/media/0d38653e-9555-4cff-a5ea-27c22d53cb34-large3x4_CoronavirusCasesCountyMapMar20.jpg?1584731314433" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						169 Coronavirus Cases Confirmed In Ohio With 39 Hospitalizations
+						<br>
+						<span class="badge badge-secondary">abc6onyourside.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://api.time.com/wp-content/uploads/2020/04/sba_covid_loans.png" target="_blank">
+						<img class="img-fluid" src="https://api.time.com/wp-content/uploads/2020/04/sba_covid_loans.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Midwestern States Outpace Peers In Small Business Loans Time
+						<br>
+						<span class="badge badge-secondary">time.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://www.nbc4i.com/wp-content/uploads/sites/18/2020/03/counties-704-1.jpg?w=900" target="_blank">
+						<img class="img-fluid" src="https://www.nbc4i.com/wp-content/uploads/sites/18/2020/03/counties-704-1.jpg?w=900" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus In Ohio Update 704 Cases Reported 10 Deaths Wdtn Com
+						<br>
+						<span class="badge badge-secondary">www.wdtn.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://www.tristatehomepage.com/wp-content/uploads/sites/92/2020/03/tested-map.jpg" target="_blank">
+						<img class="img-fluid" src="https://www.tristatehomepage.com/wp-content/uploads/sites/92/2020/03/tested-map.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Map Shows Covid 19 Testing Has Been Done In 5 Local Kentucky
+						<br>
+						<span class="badge badge-secondary">www.tristatehomepage.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://media.nbcdfw.com/2019/09/Screen-Shot-2020-03-25-at-4.19.56-PM.png?resize=850%2C478" target="_blank">
+						<img class="img-fluid" src="https://media.nbcdfw.com/2019/09/Screen-Shot-2020-03-25-at-4.19.56-PM.png?resize=850%2C478" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						How Coronavirus Testing Varies By Country And State In Charts
+						<br>
+						<span class="badge badge-secondary">www.nbcdfw.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://ewscripps.brightspotcdn.com/dims4/default/4111e33/2147483647/strip/true/crop/1037x650+0+0/resize/1037x650!/quality/90/?url=https%3A%2F%2Fewscripps.brightspotcdn.com%2F84%2F20%2Fcc07af204c9f9e66ea55ce796075%2Fohios-new-daily-cases-1.jpeg" target="_blank">
+						<img class="img-fluid" src="https://ewscripps.brightspotcdn.com/dims4/default/4111e33/2147483647/strip/true/crop/1037x650+0+0/resize/1037x650!/quality/90/?url=https%3A%2F%2Fewscripps.brightspotcdn.com%2F84%2F20%2Fcc07af204c9f9e66ea55ce796075%2Fohios-new-daily-cases-1.jpeg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Number Of Deaths And Cases In Ohio Continues To Rise Gradually
+						<br>
+						<span class="badge badge-secondary">www.news5cleveland.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://static01.nyt.com/images/2020/03/22/us/coronavirus-social-distancing-promo-1584892064309/coronavirus-social-distancing-promo-1584892064309-videoSixteenByNineJumbo1600-v4.jpg" target="_blank">
+						<img class="img-fluid" src="https://static01.nyt.com/images/2020/03/22/us/coronavirus-social-distancing-promo-1584892064309/coronavirus-social-distancing-promo-1584892064309-videoSixteenByNineJumbo1600-v4.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Opinion How Has Your State Reacted To Social Distancing The
+						<br>
+						<span class="badge badge-secondary">www.nytimes.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://static01.nyt.com/images/2020/04/24/us/states-reopen-map-coronavirus-promo-1587778728210/states-reopen-map-coronavirus-promo-1587778728210-mediumSquareAt3X-v31.png" target="_blank">
+						<img class="img-fluid" src="https://static01.nyt.com/images/2020/04/24/us/states-reopen-map-coronavirus-promo-1587778728210/states-reopen-map-coronavirus-promo-1587778728210-mediumSquareAt3X-v31.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						0fbebqyjfwhv2m
+						<br>
+						<span class="badge badge-secondary"></span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://www.wksu.org/sites/wksu/files/styles/x_large/public/202003/screenshot_2020-03-31_06.42.56.png" target="_blank">
+						<img class="img-fluid" src="https://www.wksu.org/sites/wksu/files/styles/x_large/public/202003/screenshot_2020-03-31_06.42.56.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Morning Headlines Ksu To Issue 14m In Refunds Lawmakers Ask
+						<br>
+						<span class="badge badge-secondary">www.wksu.org</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://www.cleveland.com/resizer/Wk2C5NGGeoRcnvR2Xfmq9qz-_z0=/450x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/XJF4W66ZJFGCJKYIYXHFVGPOSA.png" target="_blank">
+						<img class="img-fluid" src="https://www.cleveland.com/resizer/Wk2C5NGGeoRcnvR2Xfmq9qz-_z0=/450x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/XJF4W66ZJFGCJKYIYXHFVGPOSA.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Mapping Ohio S 7 280 Coronavirus Cases Updates And Trends
+						<br>
+						<span class="badge badge-secondary">www.cleveland.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="http://www.policysoapbox.com/wp-content/uploads/2020/03/image-11-1024x755.png" target="_blank">
+						<img class="img-fluid" src="http://www.policysoapbox.com/wp-content/uploads/2020/03/image-11-1024x755.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Disease 2019 Covid 19 In The Us Latest State
+						<br>
+						<span class="badge badge-secondary">www.policysoapbox.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://www.bloomberg.com/graphics/2020-united-states-coronavirus-outbreak/img/2020-united-states-coronavirus-outbreak-facebook.png?t=202004281556" target="_blank">
+						<img class="img-fluid" src="https://www.bloomberg.com/graphics/2020-united-states-coronavirus-outbreak/img/2020-united-states-coronavirus-outbreak-facebook.png?t=202004281556" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						U S Coronavirus Cases And Deaths
+						<br>
+						<span class="badge badge-secondary">www.bloomberg.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://static.politico.com/dims4/default/8a2b83f/2147483647/resize/1160x%3E/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2F76%2Fb9%2Fd55069094e73b73f6b577528113d%2Fcovid-state-response-map-1000.png" target="_blank">
+						<img class="img-fluid" src="https://static.politico.com/dims4/default/8a2b83f/2147483647/resize/1160x%3E/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2F76%2Fb9%2Fd55069094e73b73f6b577528113d%2Fcovid-state-response-map-1000.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						How States Are Responding To Coronavirus In 7 Maps Politico
+						<br>
+						<span class="badge badge-secondary">www.politico.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://static01.nyt.com/images/2020/04/06/us/coronavirus-deaths-united-states-promo-1586231664844/coronavirus-deaths-united-states-promo-1586231664844-videoSixteenByNineJumbo1600-v5.jpg" target="_blank">
+						<img class="img-fluid" src="https://static01.nyt.com/images/2020/04/06/us/coronavirus-deaths-united-states-promo-1586231664844/coronavirus-deaths-united-states-promo-1586231664844-videoSixteenByNineJumbo1600-v5.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						See How The Coronavirus Death Toll Grew Across The U S The New
+						<br>
+						<span class="badge badge-secondary">www.nytimes.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://cdn.mos.cms.futurecdn.net/XNtTqepNpvFN9Z8LUDM7M9.jpg" target="_blank">
+						<img class="img-fluid" src="https://cdn.mos.cms.futurecdn.net/XNtTqepNpvFN9Z8LUDM7M9.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus In The Us Latest Covid 19 News And Case Counts Live
+						<br>
+						<span class="badge badge-secondary">www.livescience.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://assets.law360news.com/1252000/1252836/coronavirus%20courts%20map-all.png" target="_blank">
+						<img class="img-fluid" src="https://assets.law360news.com/1252000/1252836/coronavirus%20courts%20map-all.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus The Latest Court Closures And Restrictions Law360
+						<br>
+						<span class="badge badge-secondary">www.law360.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://ohio.gov/wps/wcm/connect/gov/f5df33a8-245b-4efb-a7ae-64b387d99cab/adventuretrails.jpg?MOD=AJPERES&amp;amp;CACHEID=ROOTWORKSPACE.Z18_M1HGGIK0N0JO00QO9DDDDM3000-f5df33a8-245b-4efb-a7ae-64b387d99cab-mnYE8m5" target="_blank">
+						<img class="img-fluid" src="https://ohio.gov/wps/wcm/connect/gov/f5df33a8-245b-4efb-a7ae-64b387d99cab/adventuretrails.jpg?MOD=AJPERES&amp;amp;CACHEID=ROOTWORKSPACE.Z18_M1HGGIK0N0JO00QO9DDDDM3000-f5df33a8-245b-4efb-a7ae-64b387d99cab-mnYE8m5" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Ohio Gov Official Website Of The State Of Ohio
+						<br>
+						<span class="badge badge-secondary">www.ohio.gov</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://interactive.guim.co.uk/uploader/embed/2020/05/archive-3-zip/giv-3902LKKAeBc0PRBs/cases-capita.svg" target="_blank">
+						<img class="img-fluid" src="https://interactive.guim.co.uk/uploader/embed/2020/05/archive-3-zip/giv-3902LKKAeBc0PRBs/cases-capita.svg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						I9hiil31mdogfm
+						<br>
+						<span class="badge badge-secondary"></span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://www.fox19.com/resizer/GXB_HabbB7MkAPAFJvv09r6fhpA=/1200x600/arc-anglerfish-arc2-prod-raycom.s3.amazonaws.com/public/NRKPK6TMLFACJDVMWI6ONBL2YI.png" target="_blank">
+						<img class="img-fluid" src="https://www.fox19.com/resizer/GXB_HabbB7MkAPAFJvv09r6fhpA=/1200x600/arc-anglerfish-arc2-prod-raycom.s3.amazonaws.com/public/NRKPK6TMLFACJDVMWI6ONBL2YI.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Where Is Ohio Trends On Twitter After German Man Can T Pinpoint
+						<br>
+						<span class="badge badge-secondary">www.fox19.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://static01.nyt.com/images/2020/03/20/upshot/coronavirus-deaths-by-country-1584750820316/coronavirus-deaths-by-country-1584750820316-videoSixteenByNineJumbo1600-v3.png" target="_blank">
+						<img class="img-fluid" src="https://static01.nyt.com/images/2020/03/20/upshot/coronavirus-deaths-by-country-1584750820316/coronavirus-deaths-by-country-1584750820316-videoSixteenByNineJumbo1600-v3.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Deaths By U S State And Country Over Time Daily
+						<br>
+						<span class="badge badge-secondary">www.nytimes.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="http://www.policysoapbox.com/wp-content/uploads/2020/04/image-4-1024x767.png" target="_blank">
+						<img class="img-fluid" src="http://www.policysoapbox.com/wp-content/uploads/2020/04/image-4-1024x767.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Disease 2019 Covid 19 In The Us Latest State
+						<br>
+						<span class="badge badge-secondary">www.policysoapbox.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://i2.wp.com/scng-dash.digitalfirstmedia.com/wp-content/uploads/2020/03/gatherings.jpg?" target="_blank">
+						<img class="img-fluid" src="https://i2.wp.com/scng-dash.digitalfirstmedia.com/wp-content/uploads/2020/03/gatherings.jpg?" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Maps How Are States Reacting To The Coronavirus Pandemic
+						<br>
+						<span class="badge badge-secondary">www.ocregister.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://media.graytvinc.com/images/810*455/ohio+coronavirus1.jpg" target="_blank">
+						<img class="img-fluid" src="https://media.graytvinc.com/images/810*455/ohio+coronavirus1.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Ohio Covid 19 867 Confirmed Cases 15 Deaths
+						<br>
+						<span class="badge badge-secondary">www.wsaz.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://media.graytvinc.com/images/690*420/mosquito+fogging+map.JPG" target="_blank">
+						<img class="img-fluid" src="https://media.graytvinc.com/images/690*420/mosquito+fogging+map.JPG" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						First Death From West Nile Virus Recorded In Ohio
+						<br>
+						<span class="badge badge-secondary">www.13abc.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://media.graytvinc.com/images/690*388/restart.jpg" target="_blank">
+						<img class="img-fluid" src="https://media.graytvinc.com/images/690*388/restart.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Ohio Set To Open Up From Coronavirus Shutdown Gov Dewine Lays
+						<br>
+						<span class="badge badge-secondary">www.13abc.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://s3.amazonaws.com/ogden_images/www.theintelligencer.net/images/2020/03/29214015/03-29-20-COVID-Map-Graphic-Update-01-500x500.png" target="_blank">
+						<img class="img-fluid" src="https://s3.amazonaws.com/ogden_images/www.theintelligencer.net/images/2020/03/29214015/03-29-20-COVID-Map-Graphic-Update-01-500x500.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						W Va Reports First Coronavirus Related Death News Sports Jobs
+						<br>
+						<span class="badge badge-secondary">www.theintelligencer.net</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://arc-anglerfish-arc2-prod-tbt.s3.amazonaws.com/public/QFVFEQ4RLFEL7NL3FRZ3TYX24I.gif" target="_blank">
+						<img class="img-fluid" src="https://arc-anglerfish-arc2-prod-tbt.s3.amazonaws.com/public/QFVFEQ4RLFEL7NL3FRZ3TYX24I.gif" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gcrhpqhx7p2sn7 Oyczz4rm8sef3z5ctg Ykomrscl59shrxkrm9 Usqp Cau
+						<br>
+						<span class="badge badge-secondary"></span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://amp.osu.edu/sites/amp/files/styles/homepage_slide_short/public/Corona%20virus%20web%20app.png?itok=9T8c0tZC" target="_blank">
+						<img class="img-fluid" src="https://amp.osu.edu/sites/amp/files/styles/homepage_slide_short/public/Corona%20virus%20web%20app.png?itok=9T8c0tZC" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Home Amp
+						<br>
+						<span class="badge badge-secondary">amp.osu.edu</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://static01.nyt.com/images/2020/03/23/us/coronavirus-stay-at-home-order-promo-1585014493943/coronavirus-stay-at-home-order-promo-1585014493943-mediumSquareAt3X-v20.png" target="_blank">
+						<img class="img-fluid" src="https://static01.nyt.com/images/2020/03/23/us/coronavirus-stay-at-home-order-promo-1585014493943/coronavirus-stay-at-home-order-promo-1585014493943-mediumSquareAt3X-v20.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						See Which States And Cities Have Told Residents To Stay At Home
+						<br>
+						<span class="badge badge-secondary">www.nytimes.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://www.politico.com/interactives/2020/coronavirus-testing-by-state-chart-of-new-cases/media/share.jpg" target="_blank">
+						<img class="img-fluid" src="https://www.politico.com/interactives/2020/coronavirus-testing-by-state-chart-of-new-cases/media/share.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus By State Map Testing In The U S Chart Of New Cases
+						<br>
+						<span class="badge badge-secondary">www.politico.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://cloudfront-us-east-1.images.arcpublishing.com/advancelocal/MTT2D3C4BBBZJGGVLCOJJCFXTA.png" target="_blank">
+						<img class="img-fluid" src="https://cloudfront-us-east-1.images.arcpublishing.com/advancelocal/MTT2D3C4BBBZJGGVLCOJJCFXTA.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						50 States Of Coronavirus How Every State In The U S Has
+						<br>
+						<span class="badge badge-secondary">www.cleveland.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://s.abcnews.com/images/WNT/200305_wn_gutman_631_hpMain_16x9_992.jpg" target="_blank">
+						<img class="img-fluid" src="https://s.abcnews.com/images/WNT/200305_wn_gutman_631_hpMain_16x9_992.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						California Cruise Ship Guests Advised To Stay In Rooms As
+						<br>
+						<span class="badge badge-secondary">abcnews.go.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://www.thelantern.com/files/2020/03/unknown-2.png" target="_blank">
+						<img class="img-fluid" src="https://www.thelantern.com/files/2020/03/unknown-2.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Causes Travel Plan Cancellations
+						<br>
+						<span class="badge badge-secondary">www.thelantern.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://www.thedcregister.com/sites/thedcregister.etypegoogle6.com/files/styles/article400/public/field/image/Screen%20Shot%202020-03-27%20at%2011.05.46%20AM.png?itok=MzAWU1Fi" target="_blank">
+						<img class="img-fluid" src="https://www.thedcregister.com/sites/thedcregister.etypegoogle6.com/files/styles/article400/public/field/image/Screen%20Shot%202020-03-27%20at%2011.05.46%20AM.png?itok=MzAWU1Fi" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						First Death Due To Covid 19 Reported In Dearborn County The
+						<br>
+						<span class="badge badge-secondary">www.thedcregister.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://www.cleveland.com/resizer/A0aCh4eSUmkI8xPhoXWHxv-3_xE=/450x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/324JSBHCTFGQJN43K6LQP6UXXU.png" target="_blank">
+						<img class="img-fluid" src="https://www.cleveland.com/resizer/A0aCh4eSUmkI8xPhoXWHxv-3_xE=/450x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/324JSBHCTFGQJN43K6LQP6UXXU.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Ohio Has 351 Coronavirus Cases Compared To 1 035 In Michigan
+						<br>
+						<span class="badge badge-secondary">www.cleveland.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://www.cleveland.com/resizer/GkPMdyIT-q_RRgbkhS8kFEF8rBg=/450x0/smart/arc-anglerfish-arc2-prod-advancelocal.s3.amazonaws.com/public/GERA5QXLDJD6VMZS4AWINA4UWA.jpg" target="_blank">
+						<img class="img-fluid" src="https://www.cleveland.com/resizer/GkPMdyIT-q_RRgbkhS8kFEF8rBg=/450x0/smart/arc-anglerfish-arc2-prod-advancelocal.s3.amazonaws.com/public/GERA5QXLDJD6VMZS4AWINA4UWA.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Ohio Health Department Rolls Out New Webpages To Share Coronavirus
+						<br>
+						<span class="badge badge-secondary">www.cleveland.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://s3.amazonaws.com/ogden_images/www.weirtondailytimes.com/images/2020/03/21233024/03-21-20-COVID-Graphic-Update-02-copy.jpg" target="_blank">
+						<img class="img-fluid" src="https://s3.amazonaws.com/ogden_images/www.weirtondailytimes.com/images/2020/03/21233024/03-21-20-COVID-Graphic-Update-02-copy.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Hits Marshall County Justice Not Ready To Shut West
+						<br>
+						<span class="badge badge-secondary">www.weirtondailytimes.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://www.cdc.gov/mmwr/volumes/69/wr/social-media/mm6915e3_HospitalizationsCOVID19_IMAGE_08April20_1200x675-medium.jpg" target="_blank">
+						<img class="img-fluid" src="https://www.cdc.gov/mmwr/volumes/69/wr/social-media/mm6915e3_HospitalizationsCOVID19_IMAGE_08April20_1200x675-medium.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Hospitalization Rates And Characteristics Of Patients Hospitalized
+						<br>
+						<span class="badge badge-secondary">www.cdc.gov</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://wchstv.com/resources/media/47f7a2b1-c506-4e1a-bd28-e6f6c35b05ac-large3x4_OHIOCOVID.jpg?1588448662678" target="_blank">
+						<img class="img-fluid" src="https://wchstv.com/resources/media/47f7a2b1-c506-4e1a-bd28-e6f6c35b05ac-large3x4_OHIOCOVID.jpg?1588448662678" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Confirmed Covid 19 Cases Top 19 000 Sunday In Ohio Wchs
+						<br>
+						<span class="badge badge-secondary">wchstv.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://s25452.pcdn.co/wp-content/uploads/2020/04/ohio-dashboard-678x381.jpg" target="_blank">
+						<img class="img-fluid" src="https://s25452.pcdn.co/wp-content/uploads/2020/04/ohio-dashboard-678x381.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Understanding The Discrepancy In Reported Covid 19 Cases In
+						<br>
+						<span class="badge badge-secondary">www.clermontsun.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://static01.nyt.com/images/2020/04/06/us/coronavirus-deaths-united-states-promo-1586231664844/coronavirus-deaths-united-states-promo-1586231664844-superJumbo-v4.jpg" target="_blank">
+						<img class="img-fluid" src="https://static01.nyt.com/images/2020/04/06/us/coronavirus-deaths-united-states-promo-1586231664844/coronavirus-deaths-united-states-promo-1586231664844-superJumbo-v4.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						See How The Coronavirus Death Toll Grew Across The U S The New
+						<br>
+						<span class="badge badge-secondary">www.nytimes.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://www.esri.com/arcgis-blog/wp-content/uploads/2020/03/USCounties_Coronavirus_Cases20200329.png" target="_blank">
+						<img class="img-fluid" src="https://www.esri.com/arcgis-blog/wp-content/uploads/2020/03/USCounties_Coronavirus_Cases20200329.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Visualize Us County Polygons With Latest Coronavirus Cases In
+						<br>
+						<span class="badge badge-secondary">www.esri.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://usafactscms.azureedge.net/media/images/Capture2.2e16d0ba.fill-1000x520.format-jpeg.jpg" target="_blank">
+						<img class="img-fluid" src="https://usafactscms.azureedge.net/media/images/Capture2.2e16d0ba.fill-1000x520.format-jpeg.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Live Map Us Coronavirus Cases By County
+						<br>
+						<span class="badge badge-secondary">usafacts.org</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://public.tableau.com/static/images/JP/JPPFTRQFY/1_rss.png" target="_blank">
+						<img class="img-fluid" src="https://public.tableau.com/static/images/JP/JPPFTRQFY/1_rss.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Cases Increase To 33 In Nc No Reported Cases In
+						<br>
+						<span class="badge badge-secondary">www.greensboro.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://bloximages.newyork1.vip.townnews.com/hometownstations.com/content/tncms/assets/v3/editorial/3/f8/3f824c62-6656-11ea-8d14-9f4eb04c702d/5e6d7aa0a9f93.image.jpg?resize=1200%2C675" target="_blank">
+						<img class="img-fluid" src="https://bloximages.newyork1.vip.townnews.com/hometownstations.com/content/tncms/assets/v3/editorial/3/f8/3f824c62-6656-11ea-8d14-9f4eb04c702d/5e6d7aa0a9f93.image.jpg?resize=1200%2C675" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Ohio Officials Give Covid 19 Update For Saturday March 14th
+						<br>
+						<span class="badge badge-secondary">www.hometownstations.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://static-27.sinclairstoryline.com/resources/media/9a9cceed-ef28-4784-8828-fdce9f01d3b7-smallScale_CoronavirusFloridainteractivemap.jpg?1584379370166" target="_blank">
+						<img class="img-fluid" src="https://static-27.sinclairstoryline.com/resources/media/9a9cceed-ef28-4784-8828-fdce9f01d3b7-smallScale_CoronavirusFloridainteractivemap.jpg?1584379370166" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Interactive Map Of Coronavirus Cases In Florida Wpec
+						<br>
+						<span class="badge badge-secondary">cbs12.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://static01.nyt.com/images/2020/03/20/reader-center/infection-poster-image/infection-poster-image-superJumbo.jpg" target="_blank">
+						<img class="img-fluid" src="https://static01.nyt.com/images/2020/03/20/reader-center/infection-poster-image/infection-poster-image-superJumbo.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Could Overwhelm U S Without Urgent Action Estimates
+						<br>
+						<span class="badge badge-secondary">www.nytimes.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://mmo.aiircdn.com/248/5e8473da7ba39.png" target="_blank">
+						<img class="img-fluid" src="https://mmo.aiircdn.com/248/5e8473da7ba39.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						State Economies Ranked Based On Exposure To Coronavirus Eagle
+						<br>
+						<span class="badge badge-secondary">www.eaglecountryonline.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://upload.wikimedia.org/wikipedia/commons/6/69/COVID-19_outbreak_USA_stay-at-home_order_county_map.svg" target="_blank">
+						<img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/6/69/COVID-19_outbreak_USA_stay-at-home_order_county_map.svg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						U S State And Local Government Response To The Covid 19 Pandemic
+						<br>
+						<span class="badge badge-secondary">en.wikipedia.org</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://thehill.com/sites/default/files/ca_ihmemap_41320.jpg" target="_blank">
+						<img class="img-fluid" src="https://thehill.com/sites/default/files/ca_ihmemap_41320.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Here S When The Coronavirus Will Peak In Your State Thehill
+						<br>
+						<span class="badge badge-secondary">thehill.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://www.10tv.com/sites/default/files/styles/article_image/public/2020/03/02/covid19cases-map2.jpg?itok=kO-wQkdr" target="_blank">
+						<img class="img-fluid" src="https://www.10tv.com/sites/default/files/styles/article_image/public/2020/03/02/covid19cases-map2.jpg?itok=kO-wQkdr" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						This Interactive Map Shows All Reported Coronavirus Cases In The
+						<br>
+						<span class="badge badge-secondary">www.10tv.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://www.whio.com/resizer/UMExAelbYDU_7RbrT_R3F1i0xYY=/1200x675/arc-anglerfish-arc2-prod-cmg.s3.amazonaws.com/public/VG37BP6TIVGUTP2SEUD6HDOK2Q.jpg" target="_blank">
+						<img class="img-fluid" src="https://www.whio.com/resizer/UMExAelbYDU_7RbrT_R3F1i0xYY=/1200x675/arc-anglerfish-arc2-prod-cmg.s3.amazonaws.com/public/VG37BP6TIVGUTP2SEUD6HDOK2Q.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Pandemic Ohio Now Has 4 782 Cases 167 Deaths
+						<br>
+						<span class="badge badge-secondary">www.whio.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://bloximages.chicago2.vip.townnews.com/wvnews.com/content/tncms/assets/v3/editorial/6/db/6dbac453-e712-5980-b37a-654a35526984/5e7ca66222492.image.jpg?resize=1200%2C1553" target="_blank">
+						<img class="img-fluid" src="https://bloximages.chicago2.vip.townnews.com/wvnews.com/content/tncms/assets/v3/editorial/6/db/6dbac453-e712-5980-b37a-654a35526984/5e7ca66222492.image.jpg?resize=1200%2C1553" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						State Reports 51 Confirmed Covid 19 Cases Wv News Wvnews Com
+						<br>
+						<span class="badge badge-secondary">www.wvnews.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://www.cleveland.com/resizer/oXzUdoV_oqnoH2qJ3pD2wojfDfg=/450x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/6E7NCSPWY5FVTHZ65TPBUKOQYU.png" target="_blank">
+						<img class="img-fluid" src="https://www.cleveland.com/resizer/oXzUdoV_oqnoH2qJ3pD2wojfDfg=/450x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/6E7NCSPWY5FVTHZ65TPBUKOQYU.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Jsqgcctginyotm
+						<br>
+						<span class="badge badge-secondary"></span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://media.graytvinc.com/images/810*456/coronavirus+ohio+mgn.jpg" target="_blank">
+						<img class="img-fluid" src="https://media.graytvinc.com/images/810*456/coronavirus+ohio+mgn.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Update Ohio Reports 61 New Covid 19 Deaths
+						<br>
+						<span class="badge badge-secondary">www.wtap.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://ccphohio.org/wp-content/uploads/sites/21/2020/03/COVID-graphic-1-1170x640.jpg" target="_blank">
+						<img class="img-fluid" src="https://ccphohio.org/wp-content/uploads/sites/21/2020/03/COVID-graphic-1-1170x640.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Covid 19
+						<br>
+						<span class="badge badge-secondary">ccphohio.org</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://www.10tv.com/sites/default/files/styles/article_image/public/2020/03/21/ohio-covid-coronavirus-cases.jpg?itok=oIedCz9A" target="_blank">
+						<img class="img-fluid" src="https://www.10tv.com/sites/default/files/styles/article_image/public/2020/03/21/ohio-covid-coronavirus-cases.jpg?itok=oIedCz9A" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Ohio Coronavirus Updates 27 517 Confirmed Cases In The State
+						<br>
+						<span class="badge badge-secondary">www.10tv.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://fox8.com/wp-content/uploads/sites/12/2020/03/map.jpeg?w=900" target="_blank">
+						<img class="img-fluid" src="https://fox8.com/wp-content/uploads/sites/12/2020/03/map.jpeg?w=900" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Cuyahoga County Map Shows Coronavirus Cases By Zip Code
+						<br>
+						<span class="badge badge-secondary">fox8.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://cdn.abcotvs.com/dip/images/6014379_031420-kabc-us-coronavirus.JPG?w=800&amp;r=16%3A9" target="_blank">
+						<img class="img-fluid" src="https://cdn.abcotvs.com/dip/images/6014379_031420-kabc-us-coronavirus.JPG?w=800&amp;r=16%3A9" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Map Covid 19 Spread In The United States Abc7 Los
+						<br>
+						<span class="badge badge-secondary">abc7.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://www.fox19.com/resizer/AvGmYWeYOWepUY3m0T5VBh65pd8=/1200x0/arc-anglerfish-arc2-prod-raycom.s3.amazonaws.com/public/FJPELKIYI5DCLH546W4IPUF66Q.JPG" target="_blank">
+						<img class="img-fluid" src="https://www.fox19.com/resizer/AvGmYWeYOWepUY3m0T5VBh65pd8=/1200x0/arc-anglerfish-arc2-prod-raycom.s3.amazonaws.com/public/FJPELKIYI5DCLH546W4IPUF66Q.JPG" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Interactive Map Covid 19 Cases By Neighborhood In Cincinnati
+						<br>
+						<span class="badge badge-secondary">www.fox19.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://www.wksu.org/sites/wksu/files/styles/x_large/public/202003/screenshot_2020-03-24_15.16.44.png" target="_blank">
+						<img class="img-fluid" src="https://www.wksu.org/sites/wksu/files/styles/x_large/public/202003/screenshot_2020-03-24_15.16.44.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						State Releases More Data On Covid 19 Hospitalizations Cases
+						<br>
+						<span class="badge badge-secondary">www.wksu.org</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://businessjournaldaily.com/wp-content/uploads/2020/03/virus-map-3-21.jpg" target="_blank">
+						<img class="img-fluid" src="https://businessjournaldaily.com/wp-content/uploads/2020/03/virus-map-3-21.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Cases Update March 21 2020 Business Journal Daily
+						<br>
+						<span class="badge badge-secondary">businessjournaldaily.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://abc6onyourside.com/resources/media/ca43d55f-1d28-4410-922c-9a6d6dca7477-large16x9_CoronavirusINFOMAPMarch24.png?1585073547186" target="_blank">
+						<img class="img-fluid" src="https://abc6onyourside.com/resources/media/ca43d55f-1d28-4410-922c-9a6d6dca7477-large16x9_CoronavirusINFOMAPMarch24.png?1585073547186" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Cases Rise To 564 With 8 Deaths In Ohio Wsyx
+						<br>
+						<span class="badge badge-secondary">abc6onyourside.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://mediad.publicbroadcasting.net/p/shared/npr/styles/x_large/nprshared/202003/820592073.png" target="_blank">
+						<img class="img-fluid" src="https://mediad.publicbroadcasting.net/p/shared/npr/styles/x_large/nprshared/202003/820592073.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Morning Headlines Ohio Covid 19 Deaths Rise Stay At Home Order
+						<br>
+						<span class="badge badge-secondary">radio.wosu.org</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/images/latest-curve-1586366686.jpg?resize=660:*" target="_blank">
+						<img class="img-fluid" src="https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/images/latest-curve-1586366686.jpg?resize=660:*" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						We Re Winning This War Signs Of Hope In Ohio Amid Coronavirus
+						<br>
+						<span class="badge badge-secondary">www.wlwt.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://www.fox19.com/resizer/SeEFpjVQIFYzwwG3x6bS2O_8tJU=/1200x900/arc-anglerfish-arc2-prod-raycom.s3.amazonaws.com/public/T26NIQCNWNBVFNO5PEYGJ3ZIMQ.png" target="_blank">
+						<img class="img-fluid" src="https://www.fox19.com/resizer/SeEFpjVQIFYzwwG3x6bS2O_8tJU=/1200x900/arc-anglerfish-arc2-prod-raycom.s3.amazonaws.com/public/T26NIQCNWNBVFNO5PEYGJ3ZIMQ.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Ranking Ohio Kentucky And Indiana Lag National Average In
+						<br>
+						<span class="badge badge-secondary">www.fox19.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://img.washingtonpost.com/wp-apps/imrs.php?src=https%3A%2F%2Fdy1ywzohuuzsd.cloudfront.net%2F2020%2Fworld%2Fmapping-spread-new-coronavirus%2Fimg%2Fus-map.png%3F_318202001&amp;w=908" target="_blank">
+						<img class="img-fluid" src="https://img.washingtonpost.com/wp-apps/imrs.php?src=https%3A%2F%2Fdy1ywzohuuzsd.cloudfront.net%2F2020%2Fworld%2Fmapping-spread-new-coronavirus%2Fimg%2Fus-map.png%3F_318202001&amp;w=908" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Power Up Andrew Yang S Plan To Give Americans 1 000 Could Become
+						<br>
+						<span class="badge badge-secondary">www.washingtonpost.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://global-uploads.webflow.com/5dc3e2af6a906d9cc232e1bc/5e878043bebe7d2975f8aba9_covid-19-social-distancing-scoreboard.png" target="_blank">
+						<img class="img-fluid" src="https://global-uploads.webflow.com/5dc3e2af6a906d9cc232e1bc/5e878043bebe7d2975f8aba9_covid-19-social-distancing-scoreboard.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Covid 19 Social Distancing Scoreboard Unacast
+						<br>
+						<span class="badge badge-secondary">www.unacast.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://static01.nyt.com/images/2020/03/21/us/coronavirus-us-cases-spread-promo-1584800081836/coronavirus-us-cases-spread-promo-1584800081836-videoSixteenByNineJumbo1600-v3.jpg" target="_blank">
+						<img class="img-fluid" src="https://static01.nyt.com/images/2020/03/21/us/coronavirus-us-cases-spread-promo-1584800081836/coronavirus-us-cases-spread-promo-1584800081836-videoSixteenByNineJumbo1600-v3.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Watch How The Coronavirus Spread Across The United States The
+						<br>
+						<span class="badge badge-secondary">www.nytimes.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+		
+
+
+	
+	
+				</div>
+			</div>
+			<div class="row footer">
+				<div class="col-md-12 text-center">
+										<a href="pages/dmca">Dmca</a>
+										<a href="pages/contact">Contact</a>
+										<a href="pages/privacy-policy">Privacy Policy</a>
+										<a href="pages/copyright">Copyright</a>
+					
+				</div>
+			</div>
+		</div>
+		<!-- <style>
+	#topbar{  background:#ddd;  width:100%;  text-align:center;  color:#333;  padding:5px;  overflow:hidden;  height:89px;  z-index:1000;  font-family:Georgia;  font-size:17px;  line-height:30px;  position:fixed;  bottom:0;  left:0;  border-top:3px solid #26ADE4;  box-shadow:0 1px 5px rgba(0,0,0,.7);
+	}
+
+	#topbar a{-webkit-box-shadow:rgba(0,0,0,0.278431) 1px 1px 3px; background:#26ADE4;  border-bottom-left-radius:4px;  border-bottom-right-radius:4px;  border-top-left-radius:4px;  border-top-right-radius:4px;  border:none;  box-shadow:rgba(0,0,0,0.278431) 1px 1px 3px;  color:white;  cursor:pointer;  font-size:0.95em;  margin:0px 0px 0px 7px;  outline:none;  padding:5px 13px 5px;  position:relative;  text-decoration:initial;
+		font-size:19px;
+	}
+
+	#topbar a:hover{  cursor:pointer;background:#444}
+
+	#topbar a:active{  top:1px}
+
+</style>
+
+<div id='topbar'>
+	<p>Write an awesome ad copy here. 
+	  	<br>
+		<a href="#your-offer-url" target="_blank">CTA Link &rarr;</a>
+	</p>
+</div> -->			</body>
+</html>
