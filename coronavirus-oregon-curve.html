@@ -1,0 +1,1266 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Mr+Dafoe" rel="stylesheet" type="text/css">
+
+		<style type="text/css">
+			html, body {
+			    font-family: "Open Sans", Arial, sans-serif;
+			    font-size: 14px;
+			    font-weight: 400;
+			    background: #f3f3f3 url(https://katu.com/resources/media/f3f00047-548e-43c7-ae64-275b76fce9b6-large3x4_COVID19projectionsinOregoncaptioned.jpg?1586307879078
+) no-repeat center center fixed;
+				background-size: cover;
+				height: 100%;
+			}
+
+			#title{
+				font-family: "Mr Dafoe", Times, serif;
+			    font-size: 34px;
+			    background: rgba(255, 255, 255, 0.8);
+			    margin-bottom: 34px;
+			}
+
+			.header{
+				padding-bottom: 13px;
+			    margin-bottom: 13px;
+			    border-bottom: 1px solid #eee;
+			}
+
+			a {
+			    color: #26ADE4;
+			    text-decoration: none;
+			}
+
+			#title a{
+				color: #333;
+				margin-left: 21px;
+			}
+
+			#title a:hover{
+				text-decoration: none;
+				color: #26ADE4;
+			}
+
+			.container{
+				max-width: 960px;
+				margin: 0px auto 60px;
+			    padding: 20px;
+			    background-color: #fff;
+			    border: 1px solid #ccc;
+			    border-top: 1px solid #ddd;
+			    border-left: 1px solid #ddd;
+			    box-shadow: 3px 3px 3px rgba(150,150,150,0.2);
+			}
+			.sidebar ul{
+				margin: 0;
+			    padding: 0;
+			}
+
+			.sidebar ul li{
+				list-style: none;
+			}
+
+			.footer{
+				margin-top: 21px;
+				padding-top: 13px;
+				border-top: 1px solid #eee;
+			}
+
+			.footer a{
+				margin: 0 15px;
+			}
+
+			.navi{
+				margin:13px 0 13px 0;
+				padding:13px;
+			}
+
+			.navi a{
+				margin: 5px 2px;
+				font-size: 95%;
+			}
+			
+		</style>
+
+		<title>Coronavirus Oregon Curve</title>
+			</head>
+	<body>
+		<div id="title" class="">
+			<a href="">Coronavirus</a>
+		</div>
+		<div class="container">
+			<div class="row header">
+				<div class="col-sm-12 text-center">
+
+						<h1>Coronavirus Oregon Curve</h1>
+
+	
+	<div class="navi text-center">
+			</div>
+
+					
+				</div>
+			</div>
+			<div class="row content">
+				<div class="col-md-12">
+					
+						
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="http://media.heartlandtv.com/images/Gov+Brown+presser.jpg" target="_blank">
+						<img class="img-fluid" src="http://media.heartlandtv.com/images/Gov+Brown+presser.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Governor Brown Speaks On Framework For Loosening Covid 19
+						<br>
+						<span class="badge badge-secondary">www.kdrv.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://images.squarespace-cdn.com/content/v1/59b9f24c64b05fd6531db026/1585159557963-VKXG3V2TEF54TKZM6G4E/ke17ZwdGBToddI8pDm48kMq3RHQHipwRlmkVsekVzHxZw-zPPgdn4jUwVcJE1ZvWEtT5uBSRWt4vQZAgTJucoTqqXjS3CfNDSuuf31e0tVHxtDJlPbspeNRzMsbFohYKrHwx2kyeeuh1BvBDx8Z6Az-3CTWZQ124CTRPXn-dnvM/globalmap.png" target="_blank">
+						<img class="img-fluid" src="https://images.squarespace-cdn.com/content/v1/59b9f24c64b05fd6531db026/1585159557963-VKXG3V2TEF54TKZM6G4E/ke17ZwdGBToddI8pDm48kMq3RHQHipwRlmkVsekVzHxZw-zPPgdn4jUwVcJE1ZvWEtT5uBSRWt4vQZAgTJucoTqqXjS3CfNDSuuf31e0tVHxtDJlPbspeNRzMsbFohYKrHwx2kyeeuh1BvBDx8Z6Az-3CTWZQ124CTRPXn-dnvM/globalmap.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Covid 19 The Oregon Curve
+						<br>
+						<span class="badge badge-secondary">www.klamathfallsnews.org</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://static.wixstatic.com/media/37b75d_2aa16c73e0634c239c96cc2ee619620d~mv2.gif" target="_blank">
+						<img class="img-fluid" src="https://static.wixstatic.com/media/37b75d_2aa16c73e0634c239c96cc2ee619620d~mv2.gif" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gcq Lpwwusmmqjr2ocbhj1zqrlfcf8ff6fm435rkkgstcrn Jgt6 Usqp Cau
+						<br>
+						<span class="badge badge-secondary"></span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://www.ci.florence.or.us/sites/default/files/styles/full_node_primary_extra_wide/public/imageattachments/em/page/16121/covid-19_fb_header_w_website.png?itok=gQllU_Gp" target="_blank">
+						<img class="img-fluid" src="https://www.ci.florence.or.us/sites/default/files/styles/full_node_primary_extra_wide/public/imageattachments/em/page/16121/covid-19_fb_header_w_website.png?itok=gQllU_Gp" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Covid 19 Informational Resources City Of Florence Oregon
+						<br>
+						<span class="badge badge-secondary">www.ci.florence.or.us</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://mazama.imgix.net/salemreporter/images/3508/1583865327.jpg?w=650&amp;auto=format,enhance&amp;fm=pjpg" target="_blank">
+						<img class="img-fluid" src="https://mazama.imgix.net/salemreporter/images/3508/1583865327.jpg?w=650&amp;auto=format,enhance&amp;fm=pjpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Marion County Has The Highest Documented Covid 19 Rate In The
+						<br>
+						<span class="badge badge-secondary">www.salemreporter.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://media.kgw.com/assets/CCT/images/5dbb2106-e196-4361-9686-3c05b70eefa1/5dbb2106-e196-4361-9686-3c05b70eefa1_1920x1080.jpg" target="_blank">
+						<img class="img-fluid" src="https://media.kgw.com/assets/CCT/images/5dbb2106-e196-4361-9686-3c05b70eefa1/5dbb2106-e196-4361-9686-3c05b70eefa1_1920x1080.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Gov Brown Limits Oregon Restaurants Bars To Takeout Delivery
+						<br>
+						<span class="badge badge-secondary">www.kgw.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+					<div class="row">
+				<div class="col-md-12">
+					<div class="text-left">
+						<h3></h3>
+						<img src="https://d3atagt0rnqk7k.cloudfront.net/wp-content/uploads/2020/04/03115053/Bell-Curve.jpg" width="34%" align="left" style="margin-right: 8px;margin-bottom: 8px;">
+
+											</div>
+				</div>
+			</div>
+			
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://media.kgw.com/assets/KGW/images/902e1f53-a7ab-498b-b88a-7f455327da2e/902e1f53-a7ab-498b-b88a-7f455327da2e_1140x641.jpg" target="_blank">
+						<img class="img-fluid" src="https://media.kgw.com/assets/KGW/images/902e1f53-a7ab-498b-b88a-7f455327da2e/902e1f53-a7ab-498b-b88a-7f455327da2e_1140x641.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						When Will Coronavirus Surge Happen In Oregon Kgw Com
+						<br>
+						<span class="badge badge-secondary">www.kgw.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://static01.nyt.com/images/2020/03/20/upshot/coronavirus-deaths-by-country-1584750820316/coronavirus-deaths-by-country-1584750820316-mediumSquareAt3X-v3.png" target="_blank">
+						<img class="img-fluid" src="https://static01.nyt.com/images/2020/03/20/upshot/coronavirus-deaths-by-country-1584750820316/coronavirus-deaths-by-country-1584750820316-mediumSquareAt3X-v3.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Deaths By U S State And Country Over Time Daily
+						<br>
+						<span class="badge badge-secondary">www.nytimes.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="http://media.heartlandtv.com/images/Coronavirus+CDC.jpg" target="_blank">
+						<img class="img-fluid" src="http://media.heartlandtv.com/images/Coronavirus+CDC.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Oregon Health Authority Reports Six More Deaths 83 New Cases Of
+						<br>
+						<span class="badge badge-secondary">www.kdrv.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://www.oregonlive.com/resizer/p0GeZRCSS-s8h4nmR7lMlxfrdwI=/450x0/smart/arc-anglerfish-arc2-prod-advancelocal.s3.amazonaws.com/public/PIN42L42SNBWJNDFRZHZQZYS7Y.gif" target="_blank">
+						<img class="img-fluid" src="https://www.oregonlive.com/resizer/p0GeZRCSS-s8h4nmR7lMlxfrdwI=/450x0/smart/arc-anglerfish-arc2-prod-advancelocal.s3.amazonaws.com/public/PIN42L42SNBWJNDFRZHZQZYS7Y.gif" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Outbreak What Do Oregon Officials Mean By Flatten
+						<br>
+						<span class="badge badge-secondary">www.oregonlive.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://www.gannett-cdn.com/indepth-static-assets/uploads/master/2863553001/fc6e4fde-aedd-4263-b8e8-4b1178651fa6-flag2.png?width=2160" target="_blank">
+						<img class="img-fluid" src="https://www.gannett-cdn.com/indepth-static-assets/uploads/master/2863553001/fc6e4fde-aedd-4263-b8e8-4b1178651fa6-flag2.png?width=2160" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Curve In Us May Be At Its Most Dangerous Point
+						<br>
+						<span class="badge badge-secondary">www.usatoday.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://res.cloudinary.com/sagacity/image/upload/c_crop,h_1786,w_2500,x_0,y_0/c_limit,dpr_auto,f_auto,fl_lossy,q_80,w_1080/Coronavirus_k88rtf.jpg" target="_blank">
+						<img class="img-fluid" src="https://res.cloudinary.com/sagacity/image/upload/c_crop,h_1786,w_2500,x_0,y_0/c_limit,dpr_auto,f_auto,fl_lossy,q_80,w_1080/Coronavirus_k88rtf.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Watch What Oregonians Need To Know Today Portland
+						<br>
+						<span class="badge badge-secondary">www.pdxmonthly.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="http://static-23.sinclairstoryline.com/resources/media/db959290-8731-48aa-a8ea-c092b8c68467-large1x1_COVID19EPIConfirmed.png?1586207823401" target="_blank">
+						<img class="img-fluid" src="http://static-23.sinclairstoryline.com/resources/media/db959290-8731-48aa-a8ea-c092b8c68467-large1x1_COVID19EPIConfirmed.png?1586207823401" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						2 More Covid 19 Deaths Brings Oregon Death Toll To 29 Over 1 100
+						<br>
+						<span class="badge badge-secondary">kval.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://d3atagt0rnqk7k.cloudfront.net/wp-content/uploads/2020/04/03115053/Bell-Curve.jpg" target="_blank">
+						<img class="img-fluid" src="https://d3atagt0rnqk7k.cloudfront.net/wp-content/uploads/2020/04/03115053/Bell-Curve.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Update Is Your State Flattening The Covid 19 Curve Here S The
+						<br>
+						<span class="badge badge-secondary">www.leafly.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://static.seattletimes.com/wp-content/uploads/2020/04/Wa-COVID-19-4.4-P-c-1020x629.jpg" target="_blank">
+						<img class="img-fluid" src="https://static.seattletimes.com/wp-content/uploads/2020/04/Wa-COVID-19-4.4-P-c-1020x629.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Daily News Updates April 5 What To Know Today About
+						<br>
+						<span class="badge badge-secondary">www.seattletimes.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://www.co.polk.or.us/sites/default/files/styles/full_node_primary_extra_wide/public/imageattachments/ph/page/26171/le2300b.jpg?itok=ei4azbqS" target="_blank">
+						<img class="img-fluid" src="https://www.co.polk.or.us/sites/default/files/styles/full_node_primary_extra_wide/public/imageattachments/ph/page/26171/le2300b.jpg?itok=ei4azbqS" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Novel Coronavirus Covid 19 Polk County Oregon Official Website
+						<br>
+						<span class="badge badge-secondary">www.co.polk.or.us</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://sharedsystems.dhsoha.state.or.us/DHSForms/Served/le2306C2.jpg" target="_blank">
+						<img class="img-fluid" src="https://sharedsystems.dhsoha.state.or.us/DHSForms/Served/le2306C2.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Stay Home Save Lives
+						<br>
+						<span class="badge badge-secondary">govstatus.egov.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="http://static-23.sinclairstoryline.com/resources/media/db959290-8731-48aa-a8ea-c092b8c68467-large3x4_COVID19EPIConfirmed.png?1586207821656" target="_blank">
+						<img class="img-fluid" src="http://static-23.sinclairstoryline.com/resources/media/db959290-8731-48aa-a8ea-c092b8c68467-large3x4_COVID19EPIConfirmed.png?1586207821656" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						2 More Covid 19 Deaths Brings Oregon Death Toll To 29 Over 1 100
+						<br>
+						<span class="badge badge-secondary">kval.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://www.ci.cannon-beach.or.us/sites/default/files/imageattachments/wysiwyg/covid-hdr.jpg" target="_blank">
+						<img class="img-fluid" src="https://www.ci.cannon-beach.or.us/sites/default/files/imageattachments/wysiwyg/covid-hdr.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Covid 19 What You Need To Know City Of Cannon
+						<br>
+						<span class="badge badge-secondary">www.ci.cannon-beach.or.us</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://www.kiro7.com/resizer/C8ZLroP5WQtUPX-0bjxqhqvRIhY=/1200x675/arc-anglerfish-arc2-prod-cmg.s3.amazonaws.com/public/WJLWOMZ5ONDCVMCHSIS55W233Y.JPG" target="_blank">
+						<img class="img-fluid" src="https://www.kiro7.com/resizer/C8ZLroP5WQtUPX-0bjxqhqvRIhY=/1200x675/arc-anglerfish-arc2-prod-cmg.s3.amazonaws.com/public/WJLWOMZ5ONDCVMCHSIS55W233Y.JPG" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Feds Washington Leads The Way When It Comes To Flattening The Curve
+						<br>
+						<span class="badge badge-secondary">www.kiro7.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://katu.com/resources/media/f3f00047-548e-43c7-ae64-275b76fce9b6-large3x4_COVID19projectionsinOregoncaptioned.jpg?1586307879078" target="_blank">
+						<img class="img-fluid" src="https://katu.com/resources/media/f3f00047-548e-43c7-ae64-275b76fce9b6-large3x4_COVID19projectionsinOregoncaptioned.jpg?1586307879078" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Health Experts Cautiously Optimistic About New Coronavirus Models
+						<br>
+						<span class="badge badge-secondary">katu.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://lpi.oregonstate.edu/sites/lpi.oregonstate.edu/files/flatten_the_curve_2.jpg" target="_blank">
+						<img class="img-fluid" src="https://lpi.oregonstate.edu/sites/lpi.oregonstate.edu/files/flatten_the_curve_2.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Linus Pauling Institute Discovering How To Live Longer And Feel
+						<br>
+						<span class="badge badge-secondary">lpi.oregonstate.edu</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://static01.nyt.com/images/2020/03/22/science/11SCI-VIRUS-CURVE1/11SCI-VIRUS-TRACKER1-superJumbo.jpg" target="_blank">
+						<img class="img-fluid" src="https://static01.nyt.com/images/2020/03/22/science/11SCI-VIRUS-CURVE1/11SCI-VIRUS-TRACKER1-superJumbo.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						How To Flatten The Curve On Coronavirus The New York Times
+						<br>
+						<span class="badge badge-secondary">www.nytimes.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://www.gannett-cdn.com/presto/2020/03/13/PSAL/cb116d1d-e3f7-437d-ac1b-c4635edea0c7-6_Middle_school_precautions_MAC_5631.JPG?crop=2544,2544,x1272,y0" target="_blank">
+						<img class="img-fluid" src="https://www.gannett-cdn.com/presto/2020/03/13/PSAL/cb116d1d-e3f7-437d-ac1b-c4635edea0c7-6_Middle_school_precautions_MAC_5631.JPG?crop=2544,2544,x1272,y0" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Aggressive Measures Can Slow Covid 19 Spread Oregon Officials Say
+						<br>
+						<span class="badge badge-secondary">www.statesmanjournal.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://static01.nyt.com/images/2020/03/22/science/11SCI-VIRUS-CURVE1/11SCI-VIRUS-TRACKER1-mediumSquareAt3X.jpg" target="_blank">
+						<img class="img-fluid" src="https://static01.nyt.com/images/2020/03/22/science/11SCI-VIRUS-CURVE1/11SCI-VIRUS-TRACKER1-mediumSquareAt3X.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						How To Flatten The Curve On Coronavirus The New York Times
+						<br>
+						<span class="badge badge-secondary">www.nytimes.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="http://static-37.sinclairstoryline.com/resources/media/59a79821-492d-4b11-9235-cc884771f066-large3x4_51covidmap.PNG?1584457023655" target="_blank">
+						<img class="img-fluid" src="http://static-37.sinclairstoryline.com/resources/media/59a79821-492d-4b11-9235-cc884771f066-large3x4_51covidmap.PNG?1584457023655" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Map Track Coronavirus Covid 19 Cases In Oregon Katu
+						<br>
+						<span class="badge badge-secondary">katu.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://www.oregonlive.com/resizer/DSsvi6KCOSBhjI2Gr_sfAb0setQ=/450x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/CEQSLWNOS5CF7GXMXN3UNQIC7Q.png" target="_blank">
+						<img class="img-fluid" src="https://www.oregonlive.com/resizer/DSsvi6KCOSBhjI2Gr_sfAb0setQ=/450x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/CEQSLWNOS5CF7GXMXN3UNQIC7Q.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Symptoms Represent 1 In 20 Er Visits And Other
+						<br>
+						<span class="badge badge-secondary">www.oregonlive.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://static.seattletimes.com/wp-content/uploads/2020/03/Wa-COVID-19-03.17-W-780x452.jpg" target="_blank">
+						<img class="img-fluid" src="https://static.seattletimes.com/wp-content/uploads/2020/03/Wa-COVID-19-03.17-W-780x452.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Daily News Updates March 17 What To Know Today About
+						<br>
+						<span class="badge badge-secondary">www.seattletimes.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://jacksoncountyor.org/Portals/11/EasyDNNnews/266662/img-oregon-graph.png" target="_blank">
+						<img class="img-fluid" src="https://jacksoncountyor.org/Portals/11/EasyDNNnews/266662/img-oregon-graph.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Oregon Projected Covid 19 Epidemic Trends
+						<br>
+						<span class="badge badge-secondary">jacksoncountyor.org</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://cdn.theatlantic.com/thumbor/Xl2JTJKyTlRzQd628OeqLRLoqY8=/0x43:2000x1085/960x500/media/img/mt/2020/04/WebArt_Londonbreed/original.jpg" target="_blank">
+						<img class="img-fluid" src="https://cdn.theatlantic.com/thumbor/Xl2JTJKyTlRzQd628OeqLRLoqY8=/0x43:2000x1085/960x500/media/img/mt/2020/04/WebArt_Londonbreed/original.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus In San Francisco How City Flattened The Curve The
+						<br>
+						<span class="badge badge-secondary">www.theatlantic.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://images2.opb.org/c_limit%2Ch_730%2Cq_90%2Cw_940/oregon_health_authority_projects_1585266983547.jpg" target="_blank">
+						<img class="img-fluid" src="https://images2.opb.org/c_limit%2Ch_730%2Cq_90%2Cw_940/oregon_health_authority_projects_1585266983547.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Oregon Officials Estimate Social Distancing Effects Transit
+						<br>
+						<span class="badge badge-secondary">www.opb.org</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://stateofreform.com/wp-content/uploads/2020/03/DOH-Covid-640x429.png" target="_blank">
+						<img class="img-fluid" src="https://stateofreform.com/wp-content/uploads/2020/03/DOH-Covid-640x429.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Dispatch From Seattle V6 What Bending The Curve Looks Like
+						<br>
+						<span class="badge badge-secondary">stateofreform.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://cloudfront-us-east-1.images.arcpublishing.com/advancelocal/OIQLN2AMXBELVFRVJYIZ663ZB4.png" target="_blank">
+						<img class="img-fluid" src="https://cloudfront-us-east-1.images.arcpublishing.com/advancelocal/OIQLN2AMXBELVFRVJYIZ663ZB4.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Cases Plateau In Oregon Drop Not Expected For 6 Weeks
+						<br>
+						<span class="badge badge-secondary">www.oregonlive.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://techcrunch.com/wp-content/uploads/2020/03/Screen-Shot-2020-03-23-at-4.43.57-PM.png" target="_blank">
+						<img class="img-fluid" src="https://techcrunch.com/wp-content/uploads/2020/03/Screen-Shot-2020-03-23-at-4.43.57-PM.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Kinsa S Fever Map Could Show Just How Crucial It Is To Stay Home
+						<br>
+						<span class="badge badge-secondary">techcrunch.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://www.ci.cannon-beach.or.us/sites/default/files/imageattachments/wysiwyg/covid-19_cases1.png" target="_blank">
+						<img class="img-fluid" src="https://www.ci.cannon-beach.or.us/sites/default/files/imageattachments/wysiwyg/covid-19_cases1.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Covid 19 What You Need To Know City Of Cannon
+						<br>
+						<span class="badge badge-secondary">www.ci.cannon-beach.or.us</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://www.cdc.gov/coronavirus/2019-ncov/images/social/covid-19-us-cases.png" target="_blank">
+						<img class="img-fluid" src="https://www.cdc.gov/coronavirus/2019-ncov/images/social/covid-19-us-cases.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Cases In The U S Cdc
+						<br>
+						<span class="badge badge-secondary">www.cdc.gov</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://storage.googleapis.com/afs-prod/media/e204cf96be964972a5e057bb483e4e2d/3000.jpeg" target="_blank">
+						<img class="img-fluid" src="https://storage.googleapis.com/afs-prod/media/e204cf96be964972a5e057bb483e4e2d/3000.jpeg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Oregon Prepares For Fallout From Coronavirus School Closure
+						<br>
+						<span class="badge badge-secondary">apnews.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://miro.medium.com/max/1200/0*19GxUL6emgR1EqUx" target="_blank">
+						<img class="img-fluid" src="https://miro.medium.com/max/1200/0*19GxUL6emgR1EqUx" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Out Of Many One Tomas Pueyo Medium
+						<br>
+						<span class="badge badge-secondary">medium.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://www.clarkcountytoday.com/wp-content/uploads/2020/04/Clark-County-Today-epi_curve_04_24_20.jpg" target="_blank">
+						<img class="img-fluid" src="https://www.clarkcountytoday.com/wp-content/uploads/2020/04/Clark-County-Today-epi_curve_04_24_20.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Clark County Covid 19 Cases At 327 Two More Deaths
+						<br>
+						<span class="badge badge-secondary">www.clarkcountytoday.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://www.orcities.org/application/files/3515/8327/5194/COVID-19-subhead.jpg" target="_blank">
+						<img class="img-fluid" src="https://www.orcities.org/application/files/3515/8327/5194/COVID-19-subhead.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Resources League Of Oregon Cities
+						<br>
+						<span class="badge badge-secondary">www.orcities.org</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://www.koin.com/wp-content/uploads/sites/10/2020/03/coronavirus-flatten-the-curve-a-03202020.jpg?w=640" target="_blank">
+						<img class="img-fluid" src="https://www.koin.com/wp-content/uploads/sites/10/2020/03/coronavirus-flatten-the-curve-a-03202020.jpg?w=640" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Is Oregon Flattening The Curve Of The Coronavirus Koin Com
+						<br>
+						<span class="badge badge-secondary">www.koin.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://stateofreform.com/wp-content/uploads/2020/03/IHME-COVID.png" target="_blank">
+						<img class="img-fluid" src="https://stateofreform.com/wp-content/uploads/2020/03/IHME-COVID.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Dispatch From Seattle V6 What Bending The Curve Looks Like
+						<br>
+						<span class="badge badge-secondary">stateofreform.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="http://media.heartlandtv.com/images/covid+model.jpg" target="_blank">
+						<img class="img-fluid" src="http://media.heartlandtv.com/images/covid+model.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Forecast Model Predicts 500 Plus Oregon Deaths From Covid 19
+						<br>
+						<span class="badge badge-secondary">www.kezi.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://www.kiro7.com/resizer/74WhdZ21UBR7QN76B43Mj9Zo3b4=/1200x675/arc-anglerfish-arc2-prod-cmg.s3.amazonaws.com/public/SYY5ZXCSFZDNZAZZEBKV6IJFEE.JPG" target="_blank">
+						<img class="img-fluid" src="https://www.kiro7.com/resizer/74WhdZ21UBR7QN76B43Mj9Zo3b4=/1200x675/arc-anglerfish-arc2-prod-cmg.s3.amazonaws.com/public/SYY5ZXCSFZDNZAZZEBKV6IJFEE.JPG" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Feds Washington Leads The Way When It Comes To Flattening The Curve
+						<br>
+						<span class="badge badge-secondary">www.kiro7.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://katu.com/resources/media/f3f00047-548e-43c7-ae64-275b76fce9b6-large1x1_COVID19projectionsinOregoncaptioned.jpg?1586307880050" target="_blank">
+						<img class="img-fluid" src="https://katu.com/resources/media/f3f00047-548e-43c7-ae64-275b76fce9b6-large1x1_COVID19projectionsinOregoncaptioned.jpg?1586307880050" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Health Experts Cautiously Optimistic About New Coronavirus Models
+						<br>
+						<span class="badge badge-secondary">katu.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://d3atagt0rnqk7k.cloudfront.net/wp-content/uploads/2020/04/05221833/New-York-beds.png" target="_blank">
+						<img class="img-fluid" src="https://d3atagt0rnqk7k.cloudfront.net/wp-content/uploads/2020/04/05221833/New-York-beds.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Update Is Your State Flattening The Covid 19 Curve Here S The
+						<br>
+						<span class="badge badge-secondary">www.leafly.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://www.keizer.org/media/Covid%2019/IMG_2638%20(002).jpg" target="_blank">
+						<img class="img-fluid" src="https://www.keizer.org/media/Covid%2019/IMG_2638%20(002).jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						City Of Keizer Oregon Coronavirus Covid 19 Information
+						<br>
+						<span class="badge badge-secondary">www.keizer.org</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://www.co.clatsop.or.us/sites/default/files/styles/gallery500/public/imageattachments/publichealth/page/24261/cdc_200313_flatten_the_curve_800x450.jpg?itok=yGOreZ2H" target="_blank">
+						<img class="img-fluid" src="https://www.co.clatsop.or.us/sites/default/files/styles/gallery500/public/imageattachments/publichealth/page/24261/cdc_200313_flatten_the_curve_800x450.jpg?itok=yGOreZ2H" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Oregon S Effort To Flatten The Curve Of Covid 19 Spread
+						<br>
+						<span class="badge badge-secondary">www.co.clatsop.or.us</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://quincy-network.s3.ca-central-1.amazonaws.com/wp-content/uploads/sites/6/2020/03/Flattening-the-curve-860x469.png" target="_blank">
+						<img class="img-fluid" src="https://quincy-network.s3.ca-central-1.amazonaws.com/wp-content/uploads/sites/6/2020/03/Flattening-the-curve-860x469.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Why Is Everything Closing Information You Need On The Coronavirus
+						<br>
+						<span class="badge badge-secondary">kwwl.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://www.wweek.com/resizer/TvhUHvL4Xe_i0fGssZLj0qLHu8U=/600x0/filters:quality(100)/s3.amazonaws.com/arc-wordpress-client-uploads/wweek/wp-content/uploads/2020/03/17194735/page7_chart.jpg" target="_blank">
+						<img class="img-fluid" src="https://www.wweek.com/resizer/TvhUHvL4Xe_i0fGssZLj0qLHu8U=/600x0/filters:quality(100)/s3.amazonaws.com/arc-wordpress-client-uploads/wweek/wp-content/uploads/2020/03/17194735/page7_chart.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						This Is The New Normal Willamette Week
+						<br>
+						<span class="badge badge-secondary">www.wweek.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/MMXH2UT2NII6VIJQ35LTI2PQSQ.jpg" target="_blank">
+						<img class="img-fluid" src="https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/MMXH2UT2NII6VIJQ35LTI2PQSQ.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						India Kerala Coronavirus How The Communist State Flattened Its
+						<br>
+						<span class="badge badge-secondary">www.washingtonpost.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://media.kgw.com/assets/KGW/images/b2096443-e9ec-4891-8a63-8aa14148a086/b2096443-e9ec-4891-8a63-8aa14148a086_750x422.jpg" target="_blank">
+						<img class="img-fluid" src="https://media.kgw.com/assets/KGW/images/b2096443-e9ec-4891-8a63-8aa14148a086/b2096443-e9ec-4891-8a63-8aa14148a086_750x422.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Model Sees Oregon Hospitals Overwhelmed By Mid April
+						<br>
+						<span class="badge badge-secondary">www.kgw.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://centraloregondaily.com/wp-content/uploads/2020/03/Featured-image-size-template-no-background-6.png" target="_blank">
+						<img class="img-fluid" src="https://centraloregondaily.com/wp-content/uploads/2020/03/Featured-image-size-template-no-background-6.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Oregon Covid 19 Update 49 New Cases 6 New Deaths
+						<br>
+						<span class="badge badge-secondary">centraloregondaily.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://health.mo.gov/living/healthcondiseases/communicable/novel-coronavirus/img/epi-full-curve.jpg" target="_blank">
+						<img class="img-fluid" src="https://health.mo.gov/living/healthcondiseases/communicable/novel-coronavirus/img/epi-full-curve.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Covid 19 Outbreak Health Senior Services
+						<br>
+						<span class="badge badge-secondary">health.mo.gov</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://media2.fdncms.com/bend/imager/u/original/12237668/ventilators.png" target="_blank">
+						<img class="img-fluid" src="https://media2.fdncms.com/bend/imager/u/original/12237668/ventilators.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Point Of No Return Local News Bend The Source Weekly Bend
+						<br>
+						<span class="badge badge-secondary">www.bendsource.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://media.kgw.com/assets/KGW/images/3321d171-4f25-4f49-b593-f28cd7260d14/3321d171-4f25-4f49-b593-f28cd7260d14_1140x641.jpg" target="_blank">
+						<img class="img-fluid" src="https://media.kgw.com/assets/KGW/images/3321d171-4f25-4f49-b593-f28cd7260d14/3321d171-4f25-4f49-b593-f28cd7260d14_1140x641.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						When Will Coronavirus Surge Happen In Oregon Kgw Com
+						<br>
+						<span class="badge badge-secondary">www.kgw.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://www.ohsu.edu/sites/default/files/2020-04/COVID-19%20Home%20Care%20-%20Patient%20Education%20-%20Mar312020_Page_1.jpg" target="_blank">
+						<img class="img-fluid" src="https://www.ohsu.edu/sites/default/files/2020-04/COVID-19%20Home%20Care%20-%20Patient%20Education%20-%20Mar312020_Page_1.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus In Oregon Everything You Need To Know Ohsu
+						<br>
+						<span class="badge badge-secondary">www.ohsu.edu</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://multco.us/sites/default/files/styles/940_wide/public/FlattenCurve-data-dashboard.jpg?itok=ZV6ixlRq" target="_blank">
+						<img class="img-fluid" src="https://multco.us/sites/default/files/styles/940_wide/public/FlattenCurve-data-dashboard.jpg?itok=ZV6ixlRq" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Regional Covid 19 Data Dashboard Multnomah County
+						<br>
+						<span class="badge badge-secondary">multco.us</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://www.nwpb.org/wp-content/uploads/2020/04/doubling-promo-22e432eee23899cf88837c8cdcea07600cf32e24-1024x768.png" target="_blank">
+						<img class="img-fluid" src="https://www.nwpb.org/wp-content/uploads/2020/04/doubling-promo-22e432eee23899cf88837c8cdcea07600cf32e24-1024x768.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Are We Flattening The Curve States Keep Watch On Coronavirus
+						<br>
+						<span class="badge badge-secondary">www.nwpb.org</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="http://static-17.sinclairstoryline.com/resources/media/1e8bd329-6ee8-45c5-8f70-16908973bdab-large3x4_91851290_10158162035435818_3710227392938115072_o.jpg?1586286020403" target="_blank">
+						<img class="img-fluid" src="http://static-17.sinclairstoryline.com/resources/media/1e8bd329-6ee8-45c5-8f70-16908973bdab-large3x4_91851290_10158162035435818_3710227392938115072_o.jpg?1586286020403" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Model Predicts Oregon Coronavirus Cases Will Peak April 21 Ktvl
+						<br>
+						<span class="badge badge-secondary">ktvl.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://s.abcnews.com/images/Health/200312_wnt_covid_curve_hpMain_4x3_992.jpg" target="_blank">
+						<img class="img-fluid" src="https://s.abcnews.com/images/Health/200312_wnt_covid_curve_hpMain_4x3_992.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Why Flattening The Curve For Coronavirus Matters Abc News
+						<br>
+						<span class="badge badge-secondary">abcnews.go.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://bloximages.chicago2.vip.townnews.com/stlamerican.com/content/tncms/assets/v3/editorial/7/89/789c71f4-9576-11ea-9347-37b957181098/5ebc8b2beb360.image.png?resize=1200%2C669" target="_blank">
+						<img class="img-fluid" src="https://bloximages.chicago2.vip.townnews.com/stlamerican.com/content/tncms/assets/v3/editorial/7/89/789c71f4-9576-11ea-9347-37b957181098/5ebc8b2beb360.image.png?resize=1200%2C669" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Jqrusrofrccmwm
+						<br>
+						<span class="badge badge-secondary"></span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://cdn.mos.cms.futurecdn.net/kprY6iosupNFc6CXYEvQAG-1200-80.jpg" target="_blank">
+						<img class="img-fluid" src="https://cdn.mos.cms.futurecdn.net/kprY6iosupNFc6CXYEvQAG-1200-80.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus What Is Flattening The Curve And Will It Work
+						<br>
+						<span class="badge badge-secondary">www.livescience.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://oregoneconomicanalysis.files.wordpress.com/2020/04/squarerootrecovery.png" target="_blank">
+						<img class="img-fluid" src="https://oregoneconomicanalysis.files.wordpress.com/2020/04/squarerootrecovery.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Covid 19 The Square Root Recovery Oregon Office Of Economic
+						<br>
+						<span class="badge badge-secondary">oregoneconomicanalysis.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="http://cityobservatory.org/wp-content/uploads/2020/03/Covid_County_Growth323.png" target="_blank">
+						<img class="img-fluid" src="http://cityobservatory.org/wp-content/uploads/2020/03/Covid_County_Growth323.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Growth Rates Of Covid 19 In Counties With Many Cases City
+						<br>
+						<span class="badge badge-secondary">cityobservatory.org</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://s.abcnews.com/images/WNT/200415_wn_llamas1_hpMain_16x9_992.jpg" target="_blank">
+						<img class="img-fluid" src="https://s.abcnews.com/images/WNT/200415_wn_llamas1_hpMain_16x9_992.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Death Toll Rises As New York Flattens Covid 19 Curve Video Abc News
+						<br>
+						<span class="badge badge-secondary">abcnews.go.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://www.koin.com/wp-content/uploads/sites/10/2020/03/oregon-resource-model-3312020.jpg?w=854&amp;h=546&amp;crop=1&amp;resize=1280,720" target="_blank">
+						<img class="img-fluid" src="https://www.koin.com/wp-content/uploads/sites/10/2020/03/oregon-resource-model-3312020.jpg?w=854&amp;h=546&amp;crop=1&amp;resize=1280,720" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Covid 19 Projections Improve For Oregon Not For Washington Koin Com
+						<br>
+						<span class="badge badge-secondary">www.koin.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://oregoneconomicanalysis.files.wordpress.com/2020/03/covidscenarios-1.png" target="_blank">
+						<img class="img-fluid" src="https://oregoneconomicanalysis.files.wordpress.com/2020/03/covidscenarios-1.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Covid 19 The Shape Of What S To Come Oregon Office Of Economic
+						<br>
+						<span class="badge badge-secondary">oregoneconomicanalysis.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="X_UM4Fl9VPlfkM" target="_blank">
+						<img class="img-fluid" src="X_UM4Fl9VPlfkM" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						State Of Oregon
+						<br>
+						<span class="badge badge-secondary"></span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://fivethirtyeight.com/wp-content/uploads/2020/04/silver-covidpeak-1.png" target="_blank">
+						<img class="img-fluid" src="https://fivethirtyeight.com/wp-content/uploads/2020/04/silver-covidpeak-1.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Cases Are Still Growing In Many U S States
+						<br>
+						<span class="badge badge-secondary">fivethirtyeight.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://www.bridgemi.com/sites/default/files/hero_images/screen_shot_2020-03-31_at_5.38.17_pm.png" target="_blank">
+						<img class="img-fluid" src="https://www.bridgemi.com/sites/default/files/hero_images/screen_shot_2020-03-31_at_5.38.17_pm.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Why Did Coronavirus Spread So Fast In Michigan Compared To
+						<br>
+						<span class="badge badge-secondary">www.bridgemi.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://pamplinmedia.com/images/artimg/00003670577593-0773.jpg" target="_blank">
+						<img class="img-fluid" src="https://pamplinmedia.com/images/artimg/00003670577593-0773.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Pamplin Media Group Officials Say Oregon Is Flattening The
+						<br>
+						<span class="badge badge-secondary">pamplinmedia.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://media.voltron.voanews.com/Drupal/01live-166/styles/sourced/s3/2020-04/AP_20101757238388.jpg?itok=VOpYmpON" target="_blank">
+						<img class="img-fluid" src="https://media.voltron.voanews.com/Drupal/01live-166/styles/sourced/s3/2020-04/AP_20101757238388.jpg?itok=VOpYmpON" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						How 3 West Coast States Led The Way In Bending The Coronavirus
+						<br>
+						<span class="badge badge-secondary">www.voanews.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://media.kgw.com/assets/KGW/images/99fe63c2-5c45-4176-91f3-ac3072fd6490/99fe63c2-5c45-4176-91f3-ac3072fd6490_360x203.jpg" target="_blank">
+						<img class="img-fluid" src="https://media.kgw.com/assets/KGW/images/99fe63c2-5c45-4176-91f3-ac3072fd6490/99fe63c2-5c45-4176-91f3-ac3072fd6490_360x203.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						When Will Coronavirus Surge Happen In Oregon Kgw Com
+						<br>
+						<span class="badge badge-secondary">www.kgw.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://s3.amazonaws.com/cms.ipressroom.com/296/files/20204/5eac4aae2cfac23aea3f1005_KEY+STUDY_covid19_Graphic/KEY+STUDY_covid19_Graphic_a9606176-46d6-41b7-b886-18e545329df4-prv.jpg" target="_blank">
+						<img class="img-fluid" src="https://s3.amazonaws.com/cms.ipressroom.com/296/files/20204/5eac4aae2cfac23aea3f1005_KEY+STUDY_covid19_Graphic/KEY+STUDY_covid19_Graphic_a9606176-46d6-41b7-b886-18e545329df4-prv.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Gov Brown Ohsu Partner On Research Study To Inform Approach For
+						<br>
+						<span class="badge badge-secondary">news.ohsu.edu</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://images1.opb.org/c_limit%2Cg_center%2Ch_480%2Cq_90%2Cw_620/d1f5b2bbced2f4b59214a976d27b61d3.png" target="_blank">
+						<img class="img-fluid" src="https://images1.opb.org/c_limit%2Cg_center%2Ch_480%2Cq_90%2Cw_620/d1f5b2bbced2f4b59214a976d27b61d3.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Are We Flattening The Curve States Keep Watch On Coronavirus
+						<br>
+						<span class="badge badge-secondary">www.opb.org</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="http://www.co.umatilla.or.us/health/img/covid_info.png" target="_blank">
+						<img class="img-fluid" src="http://www.co.umatilla.or.us/health/img/covid_info.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Public Health Umatilla
+						<br>
+						<span class="badge badge-secondary">www.co.umatilla.or.us</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://s3.us-east-1.wasabisys.com/ktvz.com/2020/04/Oregon-COVID-19-cases-dashboard-46-860x584.jpg" target="_blank">
+						<img class="img-fluid" src="https://s3.us-east-1.wasabisys.com/ktvz.com/2020/04/Oregon-COVID-19-cases-dashboard-46-860x584.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Covid 19 Claims Two More Lives In Oregon Cases Reach 1 132 Ktvz
+						<br>
+						<span class="badge badge-secondary">ktvz.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://kval.com/resources/media/db959290-8731-48aa-a8ea-c092b8c68467-large16x9_COVID19EPIConfirmed.png?1586207818281" target="_blank">
+						<img class="img-fluid" src="https://kval.com/resources/media/db959290-8731-48aa-a8ea-c092b8c68467-large16x9_COVID19EPIConfirmed.png?1586207818281" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						2 More Covid 19 Deaths Brings Oregon Death Toll To 29 Over 1 100
+						<br>
+						<span class="badge badge-secondary">kval.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://d3n8a8pro7vhmx.cloudfront.net/oregonpsrorg/pages/1593/attachments/original/1588283836/Flatten_the_Couve_graphic.jpg?1588283836" target="_blank">
+						<img class="img-fluid" src="https://d3n8a8pro7vhmx.cloudfront.net/oregonpsrorg/pages/1593/attachments/original/1588283836/Flatten_the_Couve_graphic.jpg?1588283836" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Join Us For A Webinar Series On Climate Health Inequality
+						<br>
+						<span class="badge badge-secondary">www.oregonpsr.org</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/COVID-19_Cases_in_Oregon_by_counties.svg/1200px-COVID-19_Cases_in_Oregon_by_counties.svg.png" target="_blank">
+						<img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/COVID-19_Cases_in_Oregon_by_counties.svg/1200px-COVID-19_Cases_in_Oregon_by_counties.svg.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Covid 19 Pandemic In Oregon Wikipedia
+						<br>
+						<span class="badge badge-secondary">en.wikipedia.org</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://www.orcities.org/application/files/2515/8464/2634/89747878_3478870465463057_1754403443591610368_n.jpg" target="_blank">
+						<img class="img-fluid" src="https://www.orcities.org/application/files/2515/8464/2634/89747878_3478870465463057_1754403443591610368_n.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Resources League Of Oregon Cities
+						<br>
+						<span class="badge badge-secondary">www.orcities.org</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://img.washingtonpost.com/wp-apps/imrs.php?src=https%3A%2F%2Fdy1ywzohuuzsd.cloudfront.net%2F2020%2Fworld%2Fmapping-spread-new-coronavirus%2Fimg%2Fline-chart.png%3F_%3D0317&amp;w=908" target="_blank">
+						<img class="img-fluid" src="https://img.washingtonpost.com/wp-apps/imrs.php?src=https%3A%2F%2Fdy1ywzohuuzsd.cloudfront.net%2F2020%2Fworld%2Fmapping-spread-new-coronavirus%2Fimg%2Fline-chart.png%3F_%3D0317&amp;w=908" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						The Health 202 The Trump Administration Is Pulling Medicare And
+						<br>
+						<span class="badge badge-secondary">www.washingtonpost.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://images.squarespace-cdn.com/content/v1/59b9f24c64b05fd6531db026/1586284001891-C92J1G0OHSZMHU96MM5F/ke17ZwdGBToddI8pDm48kD6B0hj0pC0U_ns_mUlqmh8UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcjnGyVxz4_7fGUBBocNlg5FJFs2U28j8wg_7g5x2b7zk68Qg-OIBKW5Hop4sS8Azz/Category+Header+2.0+COVID-19.jpg" target="_blank">
+						<img class="img-fluid" src="https://images.squarespace-cdn.com/content/v1/59b9f24c64b05fd6531db026/1586284001891-C92J1G0OHSZMHU96MM5F/ke17ZwdGBToddI8pDm48kD6B0hj0pC0U_ns_mUlqmh8UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcjnGyVxz4_7fGUBBocNlg5FJFs2U28j8wg_7g5x2b7zk68Qg-OIBKW5Hop4sS8Azz/Category+Header+2.0+COVID-19.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Covid 19 The Oregon Curve
+						<br>
+						<span class="badge badge-secondary">www.klamathfallsnews.org</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://katu.com/resources/media/cbe0c22e-9a69-4073-9f2d-17f7eee5d7e4-large16x9_qfc_one_way_aisle_0.jpg?1587758798305" target="_blank">
+						<img class="img-fluid" src="https://katu.com/resources/media/cbe0c22e-9a69-4073-9f2d-17f7eee5d7e4-large16x9_qfc_one_way_aisle_0.jpg?1587758798305" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						New Model Shows Oregon Is Flattening The Curve Oha Says Katu
+						<br>
+						<span class="badge badge-secondary">katu.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://www.usnews.com/dims4/USNEWS/810e728/2147483647/thumbnail/640x420/quality/85/?url=http%3A%2F%2Fmedia.beam.usnews.com%2F64%2Fa78ab81766f7dd1faa9a1f045f8562%2Fmedia%3A7378c92b2ebe4efbb58db4c7550da5fcVirus_Outbreak_Oregon_82590.jpg" target="_blank">
+						<img class="img-fluid" src="https://www.usnews.com/dims4/USNEWS/810e728/2147483647/thumbnail/640x420/quality/85/?url=http%3A%2F%2Fmedia.beam.usnews.com%2F64%2Fa78ab81766f7dd1faa9a1f045f8562%2Fmedia%3A7378c92b2ebe4efbb58db4c7550da5fcVirus_Outbreak_Oregon_82590.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Oregon Prepares For Fallout From Coronavirus School Closure
+						<br>
+						<span class="badge badge-secondary">www.usnews.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://www.whio.com/resizer/LeC1qi0J2qSNTsJGBFlmNbJeL-E=/1200x675/arc-anglerfish-arc2-prod-cmg.s3.amazonaws.com/public/TZSKW3LCYJABTP3LKP2I4LWGII.jpg" target="_blank">
+						<img class="img-fluid" src="https://www.whio.com/resizer/LeC1qi0J2qSNTsJGBFlmNbJeL-E=/1200x675/arc-anglerfish-arc2-prod-cmg.s3.amazonaws.com/public/TZSKW3LCYJABTP3LKP2I4LWGII.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Pandemic Ohio Cases Exceed 4 400 25 Percent Of
+						<br>
+						<span class="badge badge-secondary">www.whio.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://image.cnbcfm.com/api/v1/image/106479336-158629865763320200407_us_cases_1615-01.png?v=1586298669" target="_blank">
+						<img class="img-fluid" src="https://image.cnbcfm.com/api/v1/image/106479336-158629865763320200407_us_cases_1615-01.png?v=1586298669" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus La Mayor Says Face Coverings Required To Enter
+						<br>
+						<span class="badge badge-secondary">www.cnbc.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://api.time.com/wp-content/uploads/2020/04/field-hospital-central-park.jpg" target="_blank">
+						<img class="img-fluid" src="https://api.time.com/wp-content/uploads/2020/04/field-hospital-central-park.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						When Are U S States Projected To Flatten The Curve Time
+						<br>
+						<span class="badge badge-secondary">time.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://media.kgw.com/assets/KGW/images/ad799339-776c-49f6-a71c-eaa1ff42e784/ad799339-776c-49f6-a71c-eaa1ff42e784_1140x641.png" target="_blank">
+						<img class="img-fluid" src="https://media.kgw.com/assets/KGW/images/ad799339-776c-49f6-a71c-eaa1ff42e784/ad799339-776c-49f6-a71c-eaa1ff42e784_1140x641.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						What S Flatten The Curve And What Does It Have To Do With
+						<br>
+						<span class="badge badge-secondary">www.kgw.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://s3.us-east-1.wasabisys.com/ktvz.com/2020/03/Oregon-coronavirus-MGN-860x484.jpg" target="_blank">
+						<img class="img-fluid" src="https://s3.us-east-1.wasabisys.com/ktvz.com/2020/03/Oregon-coronavirus-MGN-860x484.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Oregon Reports No New Covid 19 Deaths For Third Time In A Week Ktvz
+						<br>
+						<span class="badge badge-secondary">ktvz.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://media2.fdncms.com/bend/imager/u/original/12168804/coronavirus-slider.jpg" target="_blank">
+						<img class="img-fluid" src="https://media2.fdncms.com/bend/imager/u/original/12168804/coronavirus-slider.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Hq Local News Bend The Source Weekly Bend Oregon
+						<br>
+						<span class="badge badge-secondary">www.bendsource.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://bloximages.newyork1.vip.townnews.com/kptv.com/content/tncms/assets/v3/editorial/1/7c/17cdaefe-76ce-11ea-9966-eb0d10a507d9/5e891c02a203d.image.jpg?resize=400%2C225" target="_blank">
+						<img class="img-fluid" src="https://bloximages.newyork1.vip.townnews.com/kptv.com/content/tncms/assets/v3/editorial/1/7c/17cdaefe-76ce-11ea-9966-eb0d10a507d9/5e891c02a203d.image.jpg?resize=400%2C225" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						1 Additional Covid 19 Death Reported In Oregon 69 New Cases
+						<br>
+						<span class="badge badge-secondary">www.kptv.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="http://www.ashland.or.us/SIB/images/Administration/Coronavirus/Framework-for-Restarting-v5-Press-Conference_(1)_Page_2.jpg" target="_blank">
+						<img class="img-fluid" src="http://www.ashland.or.us/SIB/images/Administration/Coronavirus/Framework-for-Restarting-v5-Press-Conference_(1)_Page_2.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Reopening Oregon A Message From Governor Brown Novel
+						<br>
+						<span class="badge badge-secondary">www.ashland.or.us</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://media.nbcnewyork.com/2019/09/IHME-NY-Resource-Curve.png?fit=1024%2C580" target="_blank">
+						<img class="img-fluid" src="https://media.nbcnewyork.com/2019/09/IHME-NY-Resource-Curve.png?fit=1024%2C580" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						This Is How We Ll Know We Ve Turned A Corner On Covid 19 In New
+						<br>
+						<span class="badge badge-secondary">www.nbcnewyork.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTUpn7gdM8ew2OQPm8INIQg0UjJw9S6PxNDJsKwgq7bWeE1cGbrRsNP4odd5zUFbOIbfOWgT5X6YyfC/pubchart?oid=375173167&amp;format=image" target="_blank">
+						<img class="img-fluid" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTUpn7gdM8ew2OQPm8INIQg0UjJw9S6PxNDJsKwgq7bWeE1cGbrRsNP4odd5zUFbOIbfOWgT5X6YyfC/pubchart?oid=375173167&amp;format=image" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Patient Surge In Oregon Prompts Joint Hospital Efforts
+						<br>
+						<span class="badge badge-secondary">www.opb.org</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://media.kgw.com/assets/KGW/images/b3e3d064-0e6a-4ff3-92bb-5d10c53e6ca8/b3e3d064-0e6a-4ff3-92bb-5d10c53e6ca8_360x203.jpg" target="_blank">
+						<img class="img-fluid" src="https://media.kgw.com/assets/KGW/images/b3e3d064-0e6a-4ff3-92bb-5d10c53e6ca8/b3e3d064-0e6a-4ff3-92bb-5d10c53e6ca8_360x203.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						When Will Coronavirus Surge Happen In Oregon Kgw Com
+						<br>
+						<span class="badge badge-secondary">www.kgw.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://media.ktvb.com/assets/KTVB/images/8f366c89-dbcf-4f70-b754-b95b080a864e/8f366c89-dbcf-4f70-b754-b95b080a864e_1140x641.jpg" target="_blank">
+						<img class="img-fluid" src="https://media.ktvb.com/assets/KTVB/images/8f366c89-dbcf-4f70-b754-b95b080a864e/8f366c89-dbcf-4f70-b754-b95b080a864e_1140x641.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Model Projects Overload On Hospitals In Idaho Other
+						<br>
+						<span class="badge badge-secondary">www.ktvb.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://www.klcc.org/sites/klcc/files/202003/sign.jpg" target="_blank">
+						<img class="img-fluid" src="https://www.klcc.org/sites/klcc/files/202003/sign.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Governor S Order Could Help Flatten The Curve In Oregon Klcc
+						<br>
+						<span class="badge badge-secondary">www.klcc.org</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://www.oregonlive.com/resizer/0BOzmLXU6ojRcf5Wp6WlkqqFRio=/450x0/smart/arc-anglerfish-arc2-prod-advancelocal.s3.amazonaws.com/public/HYV4PQDZ4FDGJOXMVGWBRM256E.JPG" target="_blank">
+						<img class="img-fluid" src="https://www.oregonlive.com/resizer/0BOzmLXU6ojRcf5Wp6WlkqqFRio=/450x0/smart/arc-anglerfish-arc2-prod-advancelocal.s3.amazonaws.com/public/HYV4PQDZ4FDGJOXMVGWBRM256E.JPG" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus What Does It Mean To Flatten The Curve
+						<br>
+						<span class="badge badge-secondary">www.oregonlive.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+		
+
+
+	
+	
+				</div>
+			</div>
+			<div class="row footer">
+				<div class="col-md-12 text-center">
+										<a href="pages/dmca">Dmca</a>
+										<a href="pages/contact">Contact</a>
+										<a href="pages/privacy-policy">Privacy Policy</a>
+										<a href="pages/copyright">Copyright</a>
+					
+				</div>
+			</div>
+		</div>
+		<!-- <style>
+	#topbar{  background:#ddd;  width:100%;  text-align:center;  color:#333;  padding:5px;  overflow:hidden;  height:89px;  z-index:1000;  font-family:Georgia;  font-size:17px;  line-height:30px;  position:fixed;  bottom:0;  left:0;  border-top:3px solid #26ADE4;  box-shadow:0 1px 5px rgba(0,0,0,.7);
+	}
+
+	#topbar a{-webkit-box-shadow:rgba(0,0,0,0.278431) 1px 1px 3px; background:#26ADE4;  border-bottom-left-radius:4px;  border-bottom-right-radius:4px;  border-top-left-radius:4px;  border-top-right-radius:4px;  border:none;  box-shadow:rgba(0,0,0,0.278431) 1px 1px 3px;  color:white;  cursor:pointer;  font-size:0.95em;  margin:0px 0px 0px 7px;  outline:none;  padding:5px 13px 5px;  position:relative;  text-decoration:initial;
+		font-size:19px;
+	}
+
+	#topbar a:hover{  cursor:pointer;background:#444}
+
+	#topbar a:active{  top:1px}
+
+</style>
+
+<div id='topbar'>
+	<p>Write an awesome ad copy here. 
+	  	<br>
+		<a href="#your-offer-url" target="_blank">CTA Link &rarr;</a>
+	</p>
+</div> -->			</body>
+</html>
