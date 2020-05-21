@@ -1,0 +1,1266 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Mr+Dafoe" rel="stylesheet" type="text/css">
+
+		<style type="text/css">
+			html, body {
+			    font-family: "Open Sans", Arial, sans-serif;
+			    font-size: 14px;
+			    font-weight: 400;
+			    background: #f3f3f3 url(https://www.who.int/emergencies/mers-cov/map-1-september-2017.png
+) no-repeat center center fixed;
+				background-size: cover;
+				height: 100%;
+			}
+
+			#title{
+				font-family: "Mr Dafoe", Times, serif;
+			    font-size: 34px;
+			    background: rgba(255, 255, 255, 0.8);
+			    margin-bottom: 34px;
+			}
+
+			.header{
+				padding-bottom: 13px;
+			    margin-bottom: 13px;
+			    border-bottom: 1px solid #eee;
+			}
+
+			a {
+			    color: #26ADE4;
+			    text-decoration: none;
+			}
+
+			#title a{
+				color: #333;
+				margin-left: 21px;
+			}
+
+			#title a:hover{
+				text-decoration: none;
+				color: #26ADE4;
+			}
+
+			.container{
+				max-width: 960px;
+				margin: 0px auto 60px;
+			    padding: 20px;
+			    background-color: #fff;
+			    border: 1px solid #ccc;
+			    border-top: 1px solid #ddd;
+			    border-left: 1px solid #ddd;
+			    box-shadow: 3px 3px 3px rgba(150,150,150,0.2);
+			}
+			.sidebar ul{
+				margin: 0;
+			    padding: 0;
+			}
+
+			.sidebar ul li{
+				list-style: none;
+			}
+
+			.footer{
+				margin-top: 21px;
+				padding-top: 13px;
+				border-top: 1px solid #eee;
+			}
+
+			.footer a{
+				margin: 0 15px;
+			}
+
+			.navi{
+				margin:13px 0 13px 0;
+				padding:13px;
+			}
+
+			.navi a{
+				margin: 5px 2px;
+				font-size: 95%;
+			}
+			
+		</style>
+
+		<title>Coronavirus Stats Map</title>
+			</head>
+	<body>
+		<div id="title" class="">
+			<a href="">Coronavirus</a>
+		</div>
+		<div class="container">
+			<div class="row header">
+				<div class="col-sm-12 text-center">
+
+						<h1>Coronavirus Stats Map</h1>
+
+	
+	<div class="navi text-center">
+			</div>
+
+					
+				</div>
+			</div>
+			<div class="row content">
+				<div class="col-md-12">
+					
+						
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://www.visualcapitalist.com/wp-content/uploads/2020/03/covid-19-trajectories-prev-1000x600.jpg" target="_blank">
+						<img class="img-fluid" src="https://www.visualcapitalist.com/wp-content/uploads/2020/03/covid-19-trajectories-prev-1000x600.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Infection Trajectory Which Countries Are Flattening Their Covid
+						<br>
+						<span class="badge badge-secondary">www.visualcapitalist.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://cdn.cnn.com/cnnnext/dam/assets/200311085703-20200211-covid19-dashboard-card-overlay-tease.jpg" target="_blank">
+						<img class="img-fluid" src="https://cdn.cnn.com/cnnnext/dam/assets/200311085703-20200211-covid19-dashboard-card-overlay-tease.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Maps And Cases Track The Global Spread
+						<br>
+						<span class="badge badge-secondary">www.cnn.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://cms.qz.com/wp-content/uploads/2020/03/Johns-Hopkins-Covid-19.png?w=1200&amp;h=900&amp;crop=1&amp;strip=all&amp;quality=75" target="_blank">
+						<img class="img-fluid" src="https://cms.qz.com/wp-content/uploads/2020/03/Johns-Hopkins-Covid-19.png?w=1200&amp;h=900&amp;crop=1&amp;strip=all&amp;quality=75" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Interactive Map From Johns Hopkins Shows Coronavirus In Real Time
+						<br>
+						<span class="badge badge-secondary">qz.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://upload.wikimedia.org/wikipedia/commons/3/3b/COVID-19_Outbreak_World_Map_per_Capita.svg" target="_blank">
+						<img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/3/3b/COVID-19_Outbreak_World_Map_per_Capita.svg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Bxulao5 P3jwgm
+						<br>
+						<span class="badge badge-secondary"></span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="http://d279m997dpfwgl.cloudfront.net/wp/2020/04/Screen-Shot-2020-04-16-at-6.25.55-PM-1000x525.jpg" target="_blank">
+						<img class="img-fluid" src="http://d279m997dpfwgl.cloudfront.net/wp/2020/04/Screen-Shot-2020-04-16-at-6.25.55-PM-1000x525.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Mass Town By Town Data See Your Community S Reported Coronavirus
+						<br>
+						<span class="badge badge-secondary">www.wbur.org</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://www.ksat.com/resizer/Xd9_PTMG0HjGpLIUnIUHFSL6Ry4=/1600x900/smart/filters:format(jpeg):strip_exif(true):strip_icc(true):no_upscale(true):quality(65)/arc-anglerfish-arc2-prod-gmg.s3.amazonaws.com/public/J2SNAPE5ENEKJDOI7FYTQSDPXQ.jpg" target="_blank">
+						<img class="img-fluid" src="https://www.ksat.com/resizer/Xd9_PTMG0HjGpLIUnIUHFSL6Ry4=/1600x900/smart/filters:format(jpeg):strip_exif(true):strip_icc(true):no_upscale(true):quality(65)/arc-anglerfish-arc2-prod-gmg.s3.amazonaws.com/public/J2SNAPE5ENEKJDOI7FYTQSDPXQ.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Map San Antonio Covid 19 Cases By Zip Code 78209 Has Most
+						<br>
+						<span class="badge badge-secondary">www.ksat.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+					<div class="row">
+				<div class="col-md-12">
+					<div class="text-left">
+						<h3></h3>
+						<img src="https://www.inquirer.com/resizer/KmF729M7L9WYkUwX___Smc7_aCo=/1400x932/smart/arc-anglerfish-arc2-prod-pmn.s3.amazonaws.com/public/QLMQQ2PE7ZAXXPYEIUO5N36QPI.jpg" width="34%" align="left" style="margin-right: 8px;margin-bottom: 8px;">
+
+											</div>
+				</div>
+			</div>
+			
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://www.itnonline.com/sites/default/files/imce-users/ud236/2020-02/WHO%20Coronavirus%20stats%20Feb%2010%202020.jpg" target="_blank">
+						<img class="img-fluid" src="https://www.itnonline.com/sites/default/files/imce-users/ud236/2020-02/WHO%20Coronavirus%20stats%20Feb%2010%202020.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Chest Ct Findings Of Patients Infected With Novel Coronavirus 2019
+						<br>
+						<span class="badge badge-secondary">www.itnonline.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://www.nhpr.org/sites/nhpr/files/styles/x_large/public/202001/outbreak-coronavirus-world-1024x506px.jpg" target="_blank">
+						<img class="img-fluid" src="https://www.nhpr.org/sites/nhpr/files/styles/x_large/public/202001/outbreak-coronavirus-world-1024x506px.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						State Monitoring Two Possible Cases Of Coronavirus In N H New
+						<br>
+						<span class="badge badge-secondary">www.nhpr.org</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://www.statnews.com/wp-content/uploads/2020/03/GettyImages-1206490013-645x645.jpg" target="_blank">
+						<img class="img-fluid" src="https://www.statnews.com/wp-content/uploads/2020/03/GettyImages-1206490013-645x645.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Who Declares The Coronavirus Outbreak A Pandemic Stat
+						<br>
+						<span class="badge badge-secondary">www.statnews.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="http://cdn.statcdn.com/Infographic/images/normal/20621.jpeg" target="_blank">
+						<img class="img-fluid" src="http://cdn.statcdn.com/Infographic/images/normal/20621.jpeg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Chart Where There Are Confirmed Cases Of Coronavirus Statista
+						<br>
+						<span class="badge badge-secondary">www.statista.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://api.hub.jhu.edu/factory/sites/default/files/styles/hub_xlarge/public/coronavirus_map012320.jpg?itok=fY6WuYG_" target="_blank">
+						<img class="img-fluid" src="https://api.hub.jhu.edu/factory/sites/default/files/styles/hub_xlarge/public/coronavirus_map012320.jpg?itok=fY6WuYG_" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Map Tracks Coronavirus Outbreak In Near Real Time Hub
+						<br>
+						<span class="badge badge-secondary">hub.jhu.edu</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://www.baltimoresun.com/resizer/hN93fGcVb6yHv_NLzGrR3_f_3gk=/415x251/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/T6MPFIAMRZDYVNVPZ7A6AKZBPA.jpg" target="_blank">
+						<img class="img-fluid" src="https://www.baltimoresun.com/resizer/hN93fGcVb6yHv_NLzGrR3_f_3gk=/415x251/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/T6MPFIAMRZDYVNVPZ7A6AKZBPA.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						First Maryland Resident Being Tested For Coronavirus State Health
+						<br>
+						<span class="badge badge-secondary">www.baltimoresun.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://www.idse.net/aimages/2020/CoronavirusMap_lead.jpg" target="_blank">
+						<img class="img-fluid" src="https://www.idse.net/aimages/2020/CoronavirusMap_lead.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Outside The United States Infectious Disease Special
+						<br>
+						<span class="badge badge-secondary">www.idse.net</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://s.yimg.com/uu/api/res/1.2/NUZ1EskGSIDMld1isThCmQ--~B/aD0xMjA0O3c9MTg5MjtzbT0xO2FwcGlkPXl0YWNoeW9u/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2020-05/a16dbb40-8beb-11ea-bcad-fc6e3b52ec4e" target="_blank">
+						<img class="img-fluid" src="https://s.yimg.com/uu/api/res/1.2/NUZ1EskGSIDMld1isThCmQ--~B/aD0xMjA0O3c9MTg5MjtzbT0xO2FwcGlkPXl0YWNoeW9u/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2020-05/a16dbb40-8beb-11ea-bcad-fc6e3b52ec4e" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Update Us States Map Out Reopen Strategy As Fear
+						<br>
+						<span class="badge badge-secondary">finance.yahoo.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://www.mercurynews.com/wp-content/uploads/2020/03/Bay-Area-covid-19-map.png" target="_blank">
+						<img class="img-fluid" src="https://www.mercurynews.com/wp-content/uploads/2020/03/Bay-Area-covid-19-map.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Bay Area Coronavirus Map 11 429 Cases 406 Deaths In 10 Counties
+						<br>
+						<span class="badge badge-secondary">www.mercurynews.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://interactive.guim.co.uk/uploader/embed/2020/05/archive-zip/giv-3902TthGRroJdXwm/cases.svg" target="_blank">
+						<img class="img-fluid" src="https://interactive.guim.co.uk/uploader/embed/2020/05/archive-zip/giv-3902TthGRroJdXwm/cases.svg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Qibxkbvxbvmqmm
+						<br>
+						<span class="badge badge-secondary"></span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://www.motherjones.com/wp-content/uploads/2020/04/04022020state-response-1.gif" target="_blank">
+						<img class="img-fluid" src="https://www.motherjones.com/wp-content/uploads/2020/04/04022020state-response-1.gif" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gcttctrdvnsx Dsbrbyha9pr7ln9q52xtura7mtfpailpnb59rcc Usqp Cau
+						<br>
+						<span class="badge badge-secondary"></span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://api.time.com/wp-content/uploads/2020/03/covid-map-march-11.png?w=1200&amp;h=626&amp;crop=1" target="_blank">
+						<img class="img-fluid" src="https://api.time.com/wp-content/uploads/2020/03/covid-map-march-11.png?w=1200&amp;h=626&amp;crop=1" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Map See How Covid 19 Has Spread Time
+						<br>
+						<span class="badge badge-secondary">time.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://www.sciencealert.com/images/2020-02/5e4180d3d9db1d23d679a125-12001.jpg" target="_blank">
+						<img class="img-fluid" src="https://www.sciencealert.com/images/2020-02/5e4180d3d9db1d23d679a125-12001.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						These 5 Online Tools Provide Up To Date Tracking Of The New
+						<br>
+						<span class="badge badge-secondary">www.sciencealert.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://image.cnbcfm.com/api/v1/image/106457499-158500410346920200323_world_map_1830-01.png?v=1585004112" target="_blank">
+						<img class="img-fluid" src="https://image.cnbcfm.com/api/v1/image/106457499-158500410346920200323_world_map_1830-01.png?v=1585004112" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Us Coronavirus Cases Surge Tenfold In A Week To 50 000 Global
+						<br>
+						<span class="badge badge-secondary">www.cnbc.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://www.cnu.org/sites/default/files/styles/public_square_feature_image/public/states-mortality-map_0.jpg?itok=kGfS3V-z" target="_blank">
+						<img class="img-fluid" src="https://www.cnu.org/sites/default/files/styles/public_square_feature_image/public/states-mortality-map_0.jpg?itok=kGfS3V-z" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Which States Are Ready To Reopen State Of Coronavirus In America
+						<br>
+						<span class="badge badge-secondary">www.cnu.org</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://mjbizdaily.com/wp-content/uploads/2020/04/cannabis-states-with-stay-at-home-orders4.2-01.png" target="_blank">
+						<img class="img-fluid" src="https://mjbizdaily.com/wp-content/uploads/2020/04/cannabis-states-with-stay-at-home-orders4.2-01.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						States That Have Allowed Marijuana Businesses To Remain Open
+						<br>
+						<span class="badge badge-secondary">mjbizdaily.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://www.statnews.com/wp-content/uploads/2020/03/Drew-Rolling-Map-Still.jpg" target="_blank">
+						<img class="img-fluid" src="https://www.statnews.com/wp-content/uploads/2020/03/Drew-Rolling-Map-Still.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						The Coronavirus Is Spreading Here S How Experts Forecast The Next
+						<br>
+						<span class="badge badge-secondary">www.statnews.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://specials-images.forbesimg.com/imageserve/5e863d2b1ef5ae000679d13c/960x0.jpg?fit=scale" target="_blank">
+						<img class="img-fluid" src="https://specials-images.forbesimg.com/imageserve/5e863d2b1ef5ae000679d13c/960x0.jpg?fit=scale" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Death Rate Is Increasing In The U S These Are The
+						<br>
+						<span class="badge badge-secondary">www.forbes.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://ig.ft.com/autograph/graphics/coronavirus-map-united-states.svg?frame=webM" target="_blank">
+						<img class="img-fluid" src="https://ig.ft.com/autograph/graphics/coronavirus-map-united-states.svg?frame=webM" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Yyq6k4a 67s3em
+						<br>
+						<span class="badge badge-secondary"></span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://www.click2houston.com/resizer/u1r2cqdmZPbne77EHRwiu22OFBI=/1266x736/smart/filters:format(jpeg):strip_exif(true):strip_icc(true):no_upscale(true):quality(65)/cloudfront-us-east-1.images.arcpublishing.com/gmg/UKIQYQQIFND73HRUR3PH7455VY.png" target="_blank">
+						<img class="img-fluid" src="https://www.click2houston.com/resizer/u1r2cqdmZPbne77EHRwiu22OFBI=/1266x736/smart/filters:format(jpeg):strip_exif(true):strip_icc(true):no_upscale(true):quality(65)/cloudfront-us-east-1.images.arcpublishing.com/gmg/UKIQYQQIFND73HRUR3PH7455VY.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Map Track Coronavirus Infection Rates Per Capita County By County
+						<br>
+						<span class="badge badge-secondary">www.click2houston.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://blog.datawrapper.de/img/200306-coronaviruscharts-f.png" target="_blank">
+						<img class="img-fluid" src="https://blog.datawrapper.de/img/200306-coronaviruscharts-f.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						17 Or So Responsible Live Visualizations About The Coronavirus
+						<br>
+						<span class="badge badge-secondary">blog.datawrapper.de</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://i.insider.com/5e6f93c9c4854033994b45d2?width=1136&amp;format=jpeg" target="_blank">
+						<img class="img-fluid" src="https://i.insider.com/5e6f93c9c4854033994b45d2?width=1136&amp;format=jpeg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Microsoft S Coronavirus Map Lets You Track Covid 19 Cases
+						<br>
+						<span class="badge badge-secondary">www.businessinsider.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://kuow-prod.imgix.net/store/546b77343ace8cbafd992174ff97db95.png?ixlib=rails-2.1.4&amp;auto=format&amp;crop=faces&amp;fit=crop&amp;h=634&amp;w=924" target="_blank">
+						<img class="img-fluid" src="https://kuow-prod.imgix.net/store/546b77343ace8cbafd992174ff97db95.png?ixlib=rails-2.1.4&amp;auto=format&amp;crop=faces&amp;fit=crop&amp;h=634&amp;w=924" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Kuow Which U S States Have Confirmed Coronavirus Cases
+						<br>
+						<span class="badge badge-secondary">www.kuow.org</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://cdn.technologyreview.com/i/images/screen-shot-2020-03-06-at-15.05.01.png?sw=700&amp;cx=0&amp;cy=0&amp;cw=1910&amp;ch=981" target="_blank">
+						<img class="img-fluid" src="https://cdn.technologyreview.com/i/images/screen-shot-2020-03-06-at-15.05.01.png?sw=700&amp;cx=0&amp;cy=0&amp;cw=1910&amp;ch=981" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						The Best And The Worst Of The Coronavirus Dashboards Mit
+						<br>
+						<span class="badge badge-secondary">www.technologyreview.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://global-uploads.webflow.com/5dc3e2af6a906d9cc232e1bc/5e878043bebe7d2975f8aba9_covid-19-social-distancing-scoreboard.png" target="_blank">
+						<img class="img-fluid" src="https://global-uploads.webflow.com/5dc3e2af6a906d9cc232e1bc/5e878043bebe7d2975f8aba9_covid-19-social-distancing-scoreboard.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Covid 19 Social Distancing Scoreboard Unacast
+						<br>
+						<span class="badge badge-secondary">www.unacast.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://www.michiganradio.org/sites/michigan/files/styles/medium/public/202005/screen_shot_2020-05-11_at_3.22.30_pm.png" target="_blank">
+						<img class="img-fluid" src="https://www.michiganradio.org/sites/michigan/files/styles/medium/public/202005/screen_shot_2020-05-11_at_3.22.30_pm.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Covid 19 In Michigan Tracking State Confirmed Cases Michigan Radio
+						<br>
+						<span class="badge badge-secondary">www.michiganradio.org</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://s3-ap-southeast-1.amazonaws.com/www.spatialsource.com.au/wp-content/uploads/2020/01/29115906/Coronavirus-map.jpg" target="_blank">
+						<img class="img-fluid" src="https://s3-ap-southeast-1.amazonaws.com/www.spatialsource.com.au/wp-content/uploads/2020/01/29115906/Coronavirus-map.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Map Tracks Coronavirus Outbreak In Near Real Time Spatial Source
+						<br>
+						<span class="badge badge-secondary">www.spatialsource.com.au</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://www.mercurynews.com/wp-content/uploads/2020/03/coronaviruschart.png?w=640" target="_blank">
+						<img class="img-fluid" src="https://www.mercurynews.com/wp-content/uploads/2020/03/coronaviruschart.png?w=640" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Map Chart Updates On Coronavirus Cases Deaths By Nation
+						<br>
+						<span class="badge badge-secondary">www.mercurynews.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://cdn.geekwire.com/wp-content/uploads/2020/03/Screen-Shot-2020-03-03-at-9.41.46-AM-630x297.png" target="_blank">
+						<img class="img-fluid" src="https://cdn.geekwire.com/wp-content/uploads/2020/03/Screen-Shot-2020-03-03-at-9.41.46-AM-630x297.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						High School Student Near Seattle Builds Website To Serve As A
+						<br>
+						<span class="badge badge-secondary">www.geekwire.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://cdn.cnn.com/cnnnext/dam/assets/200407113323-coronavirus-us-maps-and-cases-super-tease.jpg" target="_blank">
+						<img class="img-fluid" src="https://cdn.cnn.com/cnnnext/dam/assets/200407113323-coronavirus-us-maps-and-cases-super-tease.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Tracking Covid 19 Cases In The Us
+						<br>
+						<span class="badge badge-secondary">www.cnn.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://images.theconversation.com/files/314495/original/file-20200210-109912-124v6q3.png?ixlib=rb-1.1.0&amp;rect=29%2C13%2C2160%2C1103&amp;q=45&amp;auto=format&amp;w=926&amp;fit=clip" target="_blank">
+						<img class="img-fluid" src="https://images.theconversation.com/files/314495/original/file-20200210-109912-124v6q3.png?ixlib=rb-1.1.0&amp;rect=29%2C13%2C2160%2C1103&amp;q=45&amp;auto=format&amp;w=926&amp;fit=clip" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Outbreak A New Mapping Tool That Lets You Scroll
+						<br>
+						<span class="badge badge-secondary">theconversation.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="http://media.graytvinc.com/images/NEW+REOPEN+MAP.jpg" target="_blank">
+						<img class="img-fluid" src="http://media.graytvinc.com/images/NEW+REOPEN+MAP.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Model Projects When States Could Safely Reopen Businesses
+						<br>
+						<span class="badge badge-secondary">www.ky3.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://d.newsweek.com/en/full/1571873/statista-covid19-coronavirus-worldwide-cases.jpg?w=1600&amp;h=1200&amp;q=88&amp;f=28f81412bfcbc423261f225411ef6531" target="_blank">
+						<img class="img-fluid" src="https://d.newsweek.com/en/full/1571873/statista-covid19-coronavirus-worldwide-cases.jpg?w=1600&amp;h=1200&amp;q=88&amp;f=28f81412bfcbc423261f225411ef6531" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Update Map Shows Nearly 100 000 Cases Confirmed
+						<br>
+						<span class="badge badge-secondary">www.newsweek.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://laistassets.scprdev.org/i/59754531486aed96bb9acb89baf05639/5e8c887e05dd6d0009054618-eight.jpg" target="_blank">
+						<img class="img-fluid" src="https://laistassets.scprdev.org/i/59754531486aed96bb9acb89baf05639/5e8c887e05dd6d0009054618-eight.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Tracking Covid 19 More Than 1 4m Confirmed Cases Worldwide La
+						<br>
+						<span class="badge badge-secondary">laist.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://api.hub.jhu.edu/factory/sites/default/files/styles/hub_xlarge/public/coronavirus_map_zoom.jpg?itok=OQxDrG4e" target="_blank">
+						<img class="img-fluid" src="https://api.hub.jhu.edu/factory/sites/default/files/styles/hub_xlarge/public/coronavirus_map_zoom.jpg?itok=OQxDrG4e" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Map Tracks Coronavirus Outbreak In Near Real Time Hub
+						<br>
+						<span class="badge badge-secondary">hub.jhu.edu</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://bloximages.chicago2.vip.townnews.com/tribstar.com/content/tncms/assets/v3/editorial/0/b2/0b2c0398-7e6d-11ea-bce4-df96b86b1a9b/5e95e5003ac58.image.jpg?resize=1200%2C595" target="_blank">
+						<img class="img-fluid" src="https://bloximages.chicago2.vip.townnews.com/tribstar.com/content/tncms/assets/v3/editorial/0/b2/0b2c0398-7e6d-11ea-bce4-df96b86b1a9b/5e95e5003ac58.image.jpg?resize=1200%2C595" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Vigo Adds Active Case To Daily Update Of Covid 19 Stats News
+						<br>
+						<span class="badge badge-secondary">www.tribstar.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://ourworldindata.org/uploads/2020/04/Coronavirus-entry-banner-on-OWID-background-1-768x402.png" target="_blank">
+						<img class="img-fluid" src="https://ourworldindata.org/uploads/2020/04/Coronavirus-entry-banner-on-OWID-background-1-768x402.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Pandemic Covid 19 Statistics And Research Our
+						<br>
+						<span class="badge badge-secondary">ourworldindata.org</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://krebsonsecurity.com/wp-content/uploads/2020/03/cv-map.png" target="_blank">
+						<img class="img-fluid" src="https://krebsonsecurity.com/wp-content/uploads/2020/03/cv-map.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Live Coronavirus Map Used To Spread Malware Krebs On Security
+						<br>
+						<span class="badge badge-secondary">krebsonsecurity.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://media.nbcmiami.com/2019/09/coronavirus-map-animated-thumb.gif?crop&amp;resize=850%2C478" target="_blank">
+						<img class="img-fluid" src="https://media.nbcmiami.com/2019/09/coronavirus-map-animated-thumb.gif?crop&amp;resize=850%2C478" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gcr If5282hoeovdhzooyz6g E8sms7gohatuai2ijlm75 Tt96c Usqp Cau
+						<br>
+						<span class="badge badge-secondary"></span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://media.nbcchicago.com/2019/09/illinois-coronavirus-case-map.png?resize=1198%2C675" target="_blank">
+						<img class="img-fluid" src="https://media.nbcchicago.com/2019/09/illinois-coronavirus-case-map.png?resize=1198%2C675" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Illinois Map Shows Cases By Zip Code Nbc Chicago
+						<br>
+						<span class="badge badge-secondary">www.nbcchicago.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://static01.nyt.com/images/2020/04/24/us/states-reopen-map-coronavirus-promo-1587778728210/states-reopen-map-coronavirus-promo-1587778728210-mediumSquareAt3X-v31.png" target="_blank">
+						<img class="img-fluid" src="https://static01.nyt.com/images/2020/04/24/us/states-reopen-map-coronavirus-promo-1587778728210/states-reopen-map-coronavirus-promo-1587778728210-mediumSquareAt3X-v31.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						0fbebqyjfwhv2m
+						<br>
+						<span class="badge badge-secondary"></span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://bloximages.newyork1.vip.townnews.com/lancasteronline.com/content/tncms/assets/v3/editorial/e/15/e15c21a6-7b6a-11ea-b06a-5f81a6e89cfb/5e90d8cf9b8f1.image.png" target="_blank">
+						<img class="img-fluid" src="https://bloximages.newyork1.vip.townnews.com/lancasteronline.com/content/tncms/assets/v3/editorial/e/15/e15c21a6-7b6a-11ea-b06a-5f81a6e89cfb/5e90d8cf9b8f1.image.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						How Many Covid 19 Cases Are In Pa 1 156 New Ones Wednesday
+						<br>
+						<span class="badge badge-secondary">lancasteronline.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://images.squarespace-cdn.com/content/v1/5ac6f2ff1137a6ffaf69f50f/1583369110968-GQ9LM1ZRNZQISRHBKEJC/ke17ZwdGBToddI8pDm48kAmCJNT9L8h9v9FWmiu2xIV7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0s8avXgxCYgT4jganmCJvKD3vpBcSkxGQbXI2g9nCo6RusGfMCQxYvopvZJWaQkPQw/COVID-19+MAP+FROM+Johns+Hopkins" target="_blank">
+						<img class="img-fluid" src="https://images.squarespace-cdn.com/content/v1/5ac6f2ff1137a6ffaf69f50f/1583369110968-GQ9LM1ZRNZQISRHBKEJC/ke17ZwdGBToddI8pDm48kAmCJNT9L8h9v9FWmiu2xIV7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0s8avXgxCYgT4jganmCJvKD3vpBcSkxGQbXI2g9nCo6RusGfMCQxYvopvZJWaQkPQw/COVID-19+MAP+FROM+Johns+Hopkins" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Covid 19 Ideas Resources Headlines Digital Health
+						<br>
+						<span class="badge badge-secondary">www.digital.health</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://ichef.bbci.co.uk/news/1024/cpsprodpb/8C4C/production/_111861953_0c81cdba-c919-414c-990b-d3c886e53dc1.jpg" target="_blank">
+						<img class="img-fluid" src="https://ichef.bbci.co.uk/news/1024/cpsprodpb/8C4C/production/_111861953_0c81cdba-c919-414c-990b-d3c886e53dc1.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus What Do The New Statistics Tell Us Bbc News
+						<br>
+						<span class="badge badge-secondary">www.bbc.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://bloximages.chicago2.vip.townnews.com/tribstar.com/content/tncms/assets/v3/editorial/e/78/e78c0794-7e6c-11ea-aafb-9fd5d3984f72/5e95e4be55992.image.jpg?resize=1200%2C1469" target="_blank">
+						<img class="img-fluid" src="https://bloximages.chicago2.vip.townnews.com/tribstar.com/content/tncms/assets/v3/editorial/e/78/e78c0794-7e6c-11ea-aafb-9fd5d3984f72/5e95e4be55992.image.jpg?resize=1200%2C1469" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Vigo Adds Active Case To Daily Update Of Covid 19 Stats News
+						<br>
+						<span class="badge badge-secondary">www.tribstar.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="ltFs-vSN9bD6FM" target="_blank">
+						<img class="img-fluid" src="ltFs-vSN9bD6FM" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Https Www Who Int Docs Default Source Coronaviruse Situation Reports 20200315 Sitrep 55 Covid 19 Pdf
+						<br>
+						<span class="badge badge-secondary"></span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://cdn.theatlantic.com/thumbor/3cWa9oEH3UuIKyLB_ZDiA3GUIc4=/0x43:2000x1085/960x500/media/img/mt/2020/03/AllClear/original.gif" target="_blank">
+						<img class="img-fluid" src="https://cdn.theatlantic.com/thumbor/3cWa9oEH3UuIKyLB_ZDiA3GUIc4=/0x43:2000x1085/960x500/media/img/mt/2020/03/AllClear/original.gif" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gctoij5z4zita4n9gv3zqxbjnkilyhmjlq42qlmhb2yedzezs3x5 Usqp Cau
+						<br>
+						<span class="badge badge-secondary"></span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://www.fox8live.com/resizer/XFwrgGO0ZXHhIH-HSwlERy3XsNQ=/1200x600/arc-anglerfish-arc2-prod-raycom.s3.amazonaws.com/public/HIXNJMOC7FBOHHAFYXIW6JJXBA.PNG" target="_blank">
+						<img class="img-fluid" src="https://www.fox8live.com/resizer/XFwrgGO0ZXHhIH-HSwlERy3XsNQ=/1200x600/arc-anglerfish-arc2-prod-raycom.s3.amazonaws.com/public/HIXNJMOC7FBOHHAFYXIW6JJXBA.PNG" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Interactive Map Shows All Reported Coronavirus Cases In The World
+						<br>
+						<span class="badge badge-secondary">www.fox8live.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://i2.wp.com/wgntv.com/wp-content/uploads/sites/5/2020/03/Screen-Shot-2020-03-19-at-4.50.08-PM.png?resize=2560%2C1440&amp;ssl=1" target="_blank">
+						<img class="img-fluid" src="https://i2.wp.com/wgntv.com/wp-content/uploads/sites/5/2020/03/Screen-Shot-2020-03-19-at-4.50.08-PM.png?resize=2560%2C1440&amp;ssl=1" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Johns Hopkins Offers Live Interactive Map Of Global Coronavirus
+						<br>
+						<span class="badge badge-secondary">wgntv.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://cdn.abcotvs.com/dip/images/6014379_031420-kabc-us-coronavirus.JPG?w=1600" target="_blank">
+						<img class="img-fluid" src="https://cdn.abcotvs.com/dip/images/6014379_031420-kabc-us-coronavirus.JPG?w=1600" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Map Covid 19 Spread In The United States Abc7 Los
+						<br>
+						<span class="badge badge-secondary">abc7.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://static.politico.com/dims4/default/8a2b83f/2147483647/resize/1160x%3E/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2F76%2Fb9%2Fd55069094e73b73f6b577528113d%2Fcovid-state-response-map-1000.png" target="_blank">
+						<img class="img-fluid" src="https://static.politico.com/dims4/default/8a2b83f/2147483647/resize/1160x%3E/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2F76%2Fb9%2Fd55069094e73b73f6b577528113d%2Fcovid-state-response-map-1000.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						How States Are Responding To Coronavirus In 7 Maps Politico
+						<br>
+						<span class="badge badge-secondary">www.politico.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://assets.weforum.org/article/image/rrUtnAamPGjwcVultb_tXV98amVA9cbIxSfpRgNY7RE.png" target="_blank">
+						<img class="img-fluid" src="https://assets.weforum.org/article/image/rrUtnAamPGjwcVultb_tXV98amVA9cbIxSfpRgNY7RE.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						This Gif Shows The Spread Of Covid 19 Across The World Since 23
+						<br>
+						<span class="badge badge-secondary">www.weforum.org</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://api.hub.jhu.edu/factory/sites/default/files/styles/hub_xlarge/public/Screen%20Shot%202020-04-13%20at%203.58.23%20PM.png?itok=Q2Giwgzq" target="_blank">
+						<img class="img-fluid" src="https://api.hub.jhu.edu/factory/sites/default/files/styles/hub_xlarge/public/Screen%20Shot%202020-04-13%20at%203.58.23%20PM.png?itok=Q2Giwgzq" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Johns Hopkins Launches New U S Focused Covid 19 Tracking Map Hub
+						<br>
+						<span class="badge badge-secondary">hub.jhu.edu</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://d3i6fh83elv35t.cloudfront.net/static/2020/01/Screen-Shot-2020-01-22-at-6.39.27-PM-1200x807.png" target="_blank">
+						<img class="img-fluid" src="https://d3i6fh83elv35t.cloudfront.net/static/2020/01/Screen-Shot-2020-01-22-at-6.39.27-PM-1200x807.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Track The Spread Of Novel Coronavirus With This Map Pbs Newshour
+						<br>
+						<span class="badge badge-secondary">www.pbs.org</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://static01.nyt.com/images/2020/03/20/upshot/coronavirus-deaths-by-country-1584750820316/coronavirus-deaths-by-country-1584750820316-superJumbo-v3.png" target="_blank">
+						<img class="img-fluid" src="https://static01.nyt.com/images/2020/03/20/upshot/coronavirus-deaths-by-country-1584750820316/coronavirus-deaths-by-country-1584750820316-superJumbo-v3.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Deaths By U S State And Country Over Time Daily
+						<br>
+						<span class="badge badge-secondary">www.nytimes.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://media.graytvinc.com/images/810*455/312_covid_mgn.jpg" target="_blank">
+						<img class="img-fluid" src="https://media.graytvinc.com/images/810*455/312_covid_mgn.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Third Case Of Coronavirus Confirmed In Michigan
+						<br>
+						<span class="badge badge-secondary">www.abc12.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://cnet4.cbsistatic.com/img/j-KiAPtv6R_fyA_0715-Kg8YnmU=/940x0/2020/04/03/07c8bb49-4ec5-480b-a977-1614f2484881/john-hopkins-map-april-3-2020.png" target="_blank">
+						<img class="img-fluid" src="https://cnet4.cbsistatic.com/img/j-KiAPtv6R_fyA_0715-Kg8YnmU=/940x0/2020/04/03/07c8bb49-4ec5-480b-a977-1614f2484881/john-hopkins-map-april-3-2020.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus How To Track The Spread Across The World As Deaths
+						<br>
+						<span class="badge badge-secondary">www.cnet.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://static01.nyt.com/images/2020/03/20/reader-center/infection-poster-image/infection-poster-image-superJumbo.jpg" target="_blank">
+						<img class="img-fluid" src="https://static01.nyt.com/images/2020/03/20/reader-center/infection-poster-image/infection-poster-image-superJumbo.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Could Overwhelm U S Without Urgent Action Estimates
+						<br>
+						<span class="badge badge-secondary">www.nytimes.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://s.hdnux.com/photos/01/11/13/65/19184987/3/920x920.jpg" target="_blank">
+						<img class="img-fluid" src="https://s.hdnux.com/photos/01/11/13/65/19184987/3/920x920.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Updated Map Of Us Coronavirus Cases By State Houston Chronicle
+						<br>
+						<span class="badge badge-secondary">www.chron.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://dehayf5mhw1h7.cloudfront.net/wp-content/uploads/sites/958/2020/03/10174836/CoronaSpreadGIF_v09_KA_hpEmbed_16x9_992.jpeg" target="_blank">
+						<img class="img-fluid" src="https://dehayf5mhw1h7.cloudfront.net/wp-content/uploads/sites/958/2020/03/10174836/CoronaSpreadGIF_v09_KA_hpEmbed_16x9_992.jpeg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Map Tracking The Spread In The Us And Around The
+						<br>
+						<span class="badge badge-secondary">www.myclallamcounty.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://cdnl.tblsft.com/sites/default/files/pages/covid-19.png" target="_blank">
+						<img class="img-fluid" src="https://cdnl.tblsft.com/sites/default/files/pages/covid-19.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Covid 19 Data Hub Case Tracker Starter Dashboard
+						<br>
+						<span class="badge badge-secondary">www.tableau.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://nationalpostcom.files.wordpress.com/2020/01/map.jpg?quality=80&amp;strip=all&amp;w=780" target="_blank">
+						<img class="img-fluid" src="https://nationalpostcom.files.wordpress.com/2020/01/map.jpg?quality=80&amp;strip=all&amp;w=780" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						There Is A Website That Tracks And Displays The Spread Of The
+						<br>
+						<span class="badge badge-secondary">nationalpost.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://i0.wp.com/www.gislounge.com/wp-content/uploads/2020/04/coronavirus-map-GIS-dashboard-covid-19.png?resize=1000%2C578&amp;ssl=1" target="_blank">
+						<img class="img-fluid" src="https://i0.wp.com/www.gislounge.com/wp-content/uploads/2020/04/coronavirus-map-GIS-dashboard-covid-19.png?resize=1000%2C578&amp;ssl=1" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						This Map Is Tracking The Coronavirus Covid 19 In Near Realtime
+						<br>
+						<span class="badge badge-secondary">www.gislounge.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://kpbs.media.clients.ellingtoncms.com/assets/img/2020/03/02/screen-shot-2020-03-02-at-4.02.49-pm_wide-a87fa89a1134e2e3b528d0cd2b38ba383a525968.png" target="_blank">
+						<img class="img-fluid" src="https://kpbs.media.clients.ellingtoncms.com/assets/img/2020/03/02/screen-shot-2020-03-02-at-4.02.49-pm_wide-a87fa89a1134e2e3b528d0cd2b38ba383a525968.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Which U S States Have Confirmed Coronavirus Cases Kpbs
+						<br>
+						<span class="badge badge-secondary">www.kpbs.org</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://wpcdn.us-east-1.vip.tn-cloud.net/www.abccolumbia.com/content/uploads/2020/03/Site_COVID19_US_v22_DAP03_18_20_hpEmbed_16x9_992.jpg" target="_blank">
+						<img class="img-fluid" src="https://wpcdn.us-east-1.vip.tn-cloud.net/www.abccolumbia.com/content/uploads/2020/03/Site_COVID19_US_v22_DAP03_18_20_hpEmbed_16x9_992.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Map Tracking The Spread In The Us And Around The
+						<br>
+						<span class="badge badge-secondary">www.abccolumbia.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://cns.utexas.edu/images/easyblog_shared/2020/COVID-19_Map_Past_Peak.png" target="_blank">
+						<img class="img-fluid" src="https://cns.utexas.edu/images/easyblog_shared/2020/COVID-19_Map_Past_Peak.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Updated Model Forecasts When States Cities Likely To See Peak In
+						<br>
+						<span class="badge badge-secondary">cns.utexas.edu</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://s.abcnews.com/images/GMA/200126_gma_pannell_hpMain_16x9_992.jpg" target="_blank">
+						<img class="img-fluid" src="https://s.abcnews.com/images/GMA/200126_gma_pannell_hpMain_16x9_992.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Global Effort To Contain The Coronavirus Video Abc News
+						<br>
+						<span class="badge badge-secondary">abcnews.go.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://www.moultriehealth.org/wp-content/uploads/Coronavirus_US_2.jpg" target="_blank">
+						<img class="img-fluid" src="https://www.moultriehealth.org/wp-content/uploads/Coronavirus_US_2.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Novel Coronavirus 2019 Ncov In United States Moultrie County
+						<br>
+						<span class="badge badge-secondary">www.moultriehealth.org</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://www.sciencealert.com/images/2020-01/processed/coronavirus_johns_hopkins_cover_1024.jpg" target="_blank">
+						<img class="img-fluid" src="https://www.sciencealert.com/images/2020-01/processed/coronavirus_johns_hopkins_cover_1024.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						This Website Lets You Track The Global Spread Of Wuhan Coronavirus
+						<br>
+						<span class="badge badge-secondary">www.sciencealert.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://s.hdnux.com/photos/01/11/41/67/19275259/7/920x920.jpg" target="_blank">
+						<img class="img-fluid" src="https://s.hdnux.com/photos/01/11/41/67/19275259/7/920x920.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						New Haven Stats Black Residents More Impacted By Coronavirus
+						<br>
+						<span class="badge badge-secondary">www.nhregister.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://media2.s-nbcnews.com/i/newscms/2020_12/3273851/cover2x1_2_8cb0a68ae8e088cd1a2b1bf8a974bab5.png" target="_blank">
+						<img class="img-fluid" src="https://media2.s-nbcnews.com/i/newscms/2020_12/3273851/cover2x1_2_8cb0a68ae8e088cd1a2b1bf8a974bab5.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus In The U S Map Of How Many Cases Have Been Confirmed
+						<br>
+						<span class="badge badge-secondary">www.nbcnews.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://retailtouchpoints.com/wp-content/uploads/2020/03/Coronavirus-China-map.png" target="_blank">
+						<img class="img-fluid" src="https://retailtouchpoints.com/wp-content/uploads/2020/03/Coronavirus-China-map.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Data Visualization Tools Boost Understanding Of Coronavirus Stats
+						<br>
+						<span class="badge badge-secondary">retailtouchpoints.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://wp.technologyreview.com/wp-content/uploads/2020/03/large-gif-952x558_0-5.gif" target="_blank">
+						<img class="img-fluid" src="https://wp.technologyreview.com/wp-content/uploads/2020/03/large-gif-952x558_0-5.gif" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gcrslrrhyasjn4wcxmj1okkc5z Xq9dxpqzherreou94s5nqhto0 Usqp Cau
+						<br>
+						<span class="badge badge-secondary"></span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://media.kvue.com/assets/KVUE/images/6f889e86-1225-4cb9-b91a-80bab6f63ba9/6f889e86-1225-4cb9-b91a-80bab6f63ba9.jpg" target="_blank">
+						<img class="img-fluid" src="https://media.kvue.com/assets/KVUE/images/6f889e86-1225-4cb9-b91a-80bab6f63ba9/6f889e86-1225-4cb9-b91a-80bab6f63ba9.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						This Interactive Map Shows You Where Coronavirus Cases Are In
+						<br>
+						<span class="badge badge-secondary">www.kvue.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://cdn.mos.cms.futurecdn.net/XNtTqepNpvFN9Z8LUDM7M9.jpg" target="_blank">
+						<img class="img-fluid" src="https://cdn.mos.cms.futurecdn.net/XNtTqepNpvFN9Z8LUDM7M9.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus In The Us Latest Covid 19 News And Case Counts Live
+						<br>
+						<span class="badge badge-secondary">www.livescience.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="http://cdn.statcdn.com/Infographic/images/normal/20978.jpeg" target="_blank">
+						<img class="img-fluid" src="http://cdn.statcdn.com/Infographic/images/normal/20978.jpeg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Chart Confirmed Covid 19 Cases In The U S Statista
+						<br>
+						<span class="badge badge-secondary">www.statista.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://media.nbcchicago.com/2019/09/Screen-Shot-2020-03-09-at-9.44.30-AM.png" target="_blank">
+						<img class="img-fluid" src="https://media.nbcchicago.com/2019/09/Screen-Shot-2020-03-09-at-9.44.30-AM.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Cases Climb In Us Stock Market Plunges Nbc Chicago
+						<br>
+						<span class="badge badge-secondary">www.nbcchicago.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://i.insider.com/5eac69e25f726e20ed10dcc2?width=1100&amp;format=jpeg&amp;auto=webp" target="_blank">
+						<img class="img-fluid" src="https://i.insider.com/5eac69e25f726e20ed10dcc2?width=1100&amp;format=jpeg&amp;auto=webp" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						When Each State Will Experience Its Coronavirus Peak Projections
+						<br>
+						<span class="badge badge-secondary">www.businessinsider.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://ichef.bbci.co.uk/news/410/cpsprodpb/F522/production/_110945726_fakenews_badge_976x976.png-nc.png" target="_blank">
+						<img class="img-fluid" src="https://ichef.bbci.co.uk/news/410/cpsprodpb/F522/production/_110945726_fakenews_badge_976x976.png-nc.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus How A Misleading Map Went Global Bbc News
+						<br>
+						<span class="badge badge-secondary">www.bbc.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://www.who.int/emergencies/mers-cov/map-1-september-2017.png" target="_blank">
+						<img class="img-fluid" src="https://www.who.int/emergencies/mers-cov/map-1-september-2017.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Who Middle East Respiratory Syndrome Coronavirus Maps And Epicurves
+						<br>
+						<span class="badge badge-secondary">www.who.int</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://image.cnbcfm.com/api/v1/image/106481121-158638430297920200408_world_map_1610-01.png?v=1586384333" target="_blank">
+						<img class="img-fluid" src="https://image.cnbcfm.com/api/v1/image/106481121-158638430297920200408_world_map_1610-01.png?v=1586384333" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Live Updates Global Cases Cross 1 5 Million
+						<br>
+						<span class="badge badge-secondary">www.cnbc.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://www.idse.net/aimages/2020/CoronavirusMapUSA_lead.jpg" target="_blank">
+						<img class="img-fluid" src="https://www.idse.net/aimages/2020/CoronavirusMapUSA_lead.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Person To Person Spread Of New Coronavirus In The United States
+						<br>
+						<span class="badge badge-secondary">www.idse.net</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://images.axios.com/Blw3XxNOIWumFniSuMJKogVo8ZE=/0x110:1686x1058/1920x1080/2020/03/10/1583879691652.png" target="_blank">
+						<img class="img-fluid" src="https://images.axios.com/Blw3XxNOIWumFniSuMJKogVo8ZE=/0x110:1686x1058/1920x1080/2020/03/10/1583879691652.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Johns Hopkins Coronavirus Map Changes Taiwan To Taipei And
+						<br>
+						<span class="badge badge-secondary">www.axios.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://wusfnews.wusf.usf.edu/sites/wusf/files/styles/x_large/public/202003/coronavirus_dashboard_3-21__sate_of_florida_.jpg" target="_blank">
+						<img class="img-fluid" src="https://wusfnews.wusf.usf.edu/sites/wusf/files/styles/x_large/public/202003/coronavirus_dashboard_3-21__sate_of_florida_.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						2 More Deaths 95 More Cases As Coronavirus Spreads Wusf News
+						<br>
+						<span class="badge badge-secondary">wusfnews.wusf.usf.edu</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://www.news4jax.com/resizer/P8HsSdaib08xw-hZLoBoVa1GRbw=/1600x899/smart/filters:format(jpeg):strip_exif(true):strip_icc(true):no_upscale(true):quality(65)/cloudfront-us-east-1.images.arcpublishing.com/gmg/JJEOCSQSTJE4XL4WITPDIZGAIE.png" target="_blank">
+						<img class="img-fluid" src="https://www.news4jax.com/resizer/P8HsSdaib08xw-hZLoBoVa1GRbw=/1600x899/smart/filters:format(jpeg):strip_exif(true):strip_icc(true):no_upscale(true):quality(65)/cloudfront-us-east-1.images.arcpublishing.com/gmg/JJEOCSQSTJE4XL4WITPDIZGAIE.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Interactive Map Track Florida S Coronavirus Cases
+						<br>
+						<span class="badge badge-secondary">www.news4jax.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://cdn.geekwire.com/wp-content/uploads/2020/03/Image-3-630x352.png" target="_blank">
+						<img class="img-fluid" src="https://cdn.geekwire.com/wp-content/uploads/2020/03/Image-3-630x352.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						King County Unveils New Dashboard To Track Confirmed Covid 19
+						<br>
+						<span class="badge badge-secondary">www.geekwire.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://image.cnbcfm.com/api/v1/image/106462174-158643897507320200409stateleveljoblessclaimsdatamap.png?v=1586438993&amp;w=1600&amp;h=900" target="_blank">
+						<img class="img-fluid" src="https://image.cnbcfm.com/api/v1/image/106462174-158643897507320200409stateleveljoblessclaimsdatamap.png?v=1586438993&amp;w=1600&amp;h=900" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Map Which States Are Seeing The Most Job Losses Due
+						<br>
+						<span class="badge badge-secondary">www.cnbc.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://media.nbcchicago.com/2019/09/coronavirus-us-animated-th.gif?fit=600%2C337" target="_blank">
+						<img class="img-fluid" src="https://media.nbcchicago.com/2019/09/coronavirus-us-animated-th.gif?fit=600%2C337" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gcqwdw2l Muoxbhhpdmvuyr4pjfy3tj9pt0pjdltkcfu1koa1a7a Usqp Cau
+						<br>
+						<span class="badge badge-secondary"></span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://img.etimg.com/photo/msid-73767262/the-coronavirus-is-not-the-first-such-disease-to-emanate-from-the-hinterlands-of-china-.jpg" target="_blank">
+						<img class="img-fluid" src="https://img.etimg.com/photo/msid-73767262/the-coronavirus-is-not-the-first-such-disease-to-emanate-from-the-hinterlands-of-china-.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Coronavirus Affected Countries This Live Interactive Dashboard
+						<br>
+						<span class="badge badge-secondary">economictimes.indiatimes.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://www.inquirer.com/resizer/KmF729M7L9WYkUwX___Smc7_aCo=/1400x932/smart/arc-anglerfish-arc2-prod-pmn.s3.amazonaws.com/public/QLMQQ2PE7ZAXXPYEIUO5N36QPI.jpg" target="_blank">
+						<img class="img-fluid" src="https://www.inquirer.com/resizer/KmF729M7L9WYkUwX___Smc7_aCo=/1400x932/smart/arc-anglerfish-arc2-prod-pmn.s3.amazonaws.com/public/QLMQQ2PE7ZAXXPYEIUO5N36QPI.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Johns Hopkins Offers A Real Time Window On The Global Pandemic
+						<br>
+						<span class="badge badge-secondary">www.inquirer.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://wusfnews.wusf.usf.edu/sites/wusf/files/styles/x_large/public/202003/3-21_coronavirus_screen_grab__state_of_florida___2_.jpg" target="_blank">
+						<img class="img-fluid" src="https://wusfnews.wusf.usf.edu/sites/wusf/files/styles/x_large/public/202003/3-21_coronavirus_screen_grab__state_of_florida___2_.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Florida S Coronavirus Total Jumps By 200 Wusf News
+						<br>
+						<span class="badge badge-secondary">wusfnews.wusf.usf.edu</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://www.gannett-cdn.com/presto/2020/04/02/USAT/847e3ffe-83c6-4f22-bc6c-7f6c07422fff-tracker_promo.png?crop=1340,754,x0,y1" target="_blank">
+						<img class="img-fluid" src="https://www.gannett-cdn.com/presto/2020/04/02/USAT/847e3ffe-83c6-4f22-bc6c-7f6c07422fff-tracker_promo.png?crop=1340,754,x0,y1" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Us Coronavirus Map Tracking The United States Outbreak
+						<br>
+						<span class="badge badge-secondary">www.usatoday.com</span>
+					</p>
+				</div>
+							<div class="col-md-4">
+					<a href="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/inHpktzLHLXc/v0/1000x-1.png" target="_blank">
+						<img class="img-fluid" src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/inHpktzLHLXc/v0/1000x-1.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Mexico S Low Coronavirus Count Spurs Doubts On Testing Rate
+						<br>
+						<span class="badge badge-secondary">www.bloomberg.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+			
+		<div class="row">
+							<div class="col-md-4">
+					<a href="https://specials-images.forbesimg.com/imageserve/5e6fa95937d0440006bc9145/960x0.jpg?fit=scale" target="_blank">
+						<img class="img-fluid" src="https://specials-images.forbesimg.com/imageserve/5e6fa95937d0440006bc9145/960x0.jpg?fit=scale" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
+					<p>
+						Here Are The States With The Most And Least Coronavirus Cases
+						<br>
+						<span class="badge badge-secondary">www.forbes.com</span>
+					</p>
+				</div>
+						
+		</div>
+
+		
+		
+
+
+	
+	
+				</div>
+			</div>
+			<div class="row footer">
+				<div class="col-md-12 text-center">
+										<a href="pages/dmca">Dmca</a>
+										<a href="pages/contact">Contact</a>
+										<a href="pages/privacy-policy">Privacy Policy</a>
+										<a href="pages/copyright">Copyright</a>
+					
+				</div>
+			</div>
+		</div>
+		<!-- <style>
+	#topbar{  background:#ddd;  width:100%;  text-align:center;  color:#333;  padding:5px;  overflow:hidden;  height:89px;  z-index:1000;  font-family:Georgia;  font-size:17px;  line-height:30px;  position:fixed;  bottom:0;  left:0;  border-top:3px solid #26ADE4;  box-shadow:0 1px 5px rgba(0,0,0,.7);
+	}
+
+	#topbar a{-webkit-box-shadow:rgba(0,0,0,0.278431) 1px 1px 3px; background:#26ADE4;  border-bottom-left-radius:4px;  border-bottom-right-radius:4px;  border-top-left-radius:4px;  border-top-right-radius:4px;  border:none;  box-shadow:rgba(0,0,0,0.278431) 1px 1px 3px;  color:white;  cursor:pointer;  font-size:0.95em;  margin:0px 0px 0px 7px;  outline:none;  padding:5px 13px 5px;  position:relative;  text-decoration:initial;
+		font-size:19px;
+	}
+
+	#topbar a:hover{  cursor:pointer;background:#444}
+
+	#topbar a:active{  top:1px}
+
+</style>
+
+<div id='topbar'>
+	<p>Write an awesome ad copy here. 
+	  	<br>
+		<a href="#your-offer-url" target="_blank">CTA Link &rarr;</a>
+	</p>
+</div> -->			</body>
+</html>
